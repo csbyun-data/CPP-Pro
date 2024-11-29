@@ -1,6 +1,8 @@
 // Program to demonstrate how to return
 // static variables from a function
 // 정적 변수는 life time은 프로그램이 끝날때까지 존재함.
+// https://www.geeksforgeeks.org/how-to-return-local-variables-from-a-function-in-c/
+
 #include <iostream>
 using namespace std;
 
