@@ -1,5 +1,6 @@
 // C++ Program to Demostrating returning of a local array
 // from a function Using dynamically allocated array
+// https://www.geeksforgeeks.org/how-to-return-a-local-array-from-a-cpp-function/
 
 #include <iostrem>
 using namespace std;
