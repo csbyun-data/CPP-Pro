@@ -2,7 +2,8 @@
 // violating some rules
 
 // [Warning] address of local variable 'arr' returned [-Wreturn-local-addr]
-// 함수호출이 끝난후  local variable가 존재하지 않은 수 있음
+// local variable은 stack 메모리에 생성
+// 함수호출이 끝난후 local variable가 존재하지 않은 수 있음, segmentation fault
 #include <iostream>
 
 using namespace std;
