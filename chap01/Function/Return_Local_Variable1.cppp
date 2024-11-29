@@ -1,5 +1,6 @@
 // C++ program to illustrate the segementation fault caused
 // due to accessing local variable after function ends
+// https://www.geeksforgeeks.org/how-to-return-local-variables-from-a-function-in-c/
 
 // [Warning] address of local variable 'arr' returned [-Wreturn-local-addr]
 
