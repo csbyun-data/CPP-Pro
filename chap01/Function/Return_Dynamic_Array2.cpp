@@ -1,4 +1,5 @@
 // Program to demostrate how to return dynamic arrays from a function
+// 동적 메모리 할당은 heap 메모리에 생성됨
 #include <iostream>
 using namespace std;
 
