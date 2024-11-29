@@ -28,3 +28,9 @@ int main()
   // Dellocate the dynamic array
   delete[] returnedArray;
 }
+
+// Element 0: 0
+// Element 1: 2
+// Element 2: 4
+// Element 3: 6
+// Element 4: 8
