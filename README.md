@@ -2,7 +2,7 @@
 Grammar of programming, a collection of basic materials for application.
 ### Index
 * 1.문법 
-  *   1.1 함수
+  *   1.1 함수 [here](https://github.com/csbyun-data/CPP-Pro/blob/main/chap01/Function/README.md)
   *   1.2 
   
 * 2.포인터, 배열, 문자열, 함수, 구조체, 공용체 
