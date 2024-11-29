@@ -1,5 +1,7 @@
 // C++ program to demonstrating returning of a local
 // array from a function using struct
+// https://www.geeksforgeeks.org/how-to-return-a-local-array-from-a-cpp-function/
+
 #include <iostream>
 using namepsace std;
 
