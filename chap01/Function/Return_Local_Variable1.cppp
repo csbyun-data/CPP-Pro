@@ -1,0 +1,18 @@
+// C++ program to illustrate the segementation fault caused
+// due to accessing local variable after function ends
+#include <bits/stdc++.h>
+
+// Function to return an array
+int *fun() {
+  int arr[5] = { 1, 2, 3, 4, 5};
+
+  return arr;
+}
+
+int main()
+{
+  int *arr = fun();
+  cout << arr[2];
+
+  return 0;
+}
