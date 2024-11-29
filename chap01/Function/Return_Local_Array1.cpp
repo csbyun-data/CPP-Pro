@@ -1,5 +1,6 @@
 // C++ Program to return a local array from a function while
 // violating some rules
+// https://www.geeksforgeeks.org/how-to-return-a-local-array-from-a-cpp-function/
 
 // [Warning] address of local variable 'arr' returned [-Wreturn-local-addr]
 // local variable은 stack 메모리에 생성
