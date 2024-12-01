@@ -9,3 +9,5 @@
     2) Using Static Array
     3) Using Structure
     ```
+
+    * 1.2 함수에서 Local 배열 반환 [문제있는 code]()
