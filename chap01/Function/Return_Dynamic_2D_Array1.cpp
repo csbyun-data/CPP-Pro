@@ -1,4 +1,6 @@
 // C++ code for returning 2D array from function using Dynamic array
+// https://www.geeksforgeeks.org/cpp-return-2d-array-from-function/
+
 #include <iostream>
 
 using namespace std;
