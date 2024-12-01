@@ -10,4 +10,4 @@
     2) Using Static Array
     3) Using Structure
     ```
-    * 1.3 함수에서 2D 배열 반환 [동적배열 반환[code1](https://github.com/csbyun-data/CPP-Pro/blob/main/chap01/Function/Return_Dynamic_2D_Array1.cpp)], [정적배열 반환 [code1](https://github.com/csbyun-data/CPP-Pro/blob/main/chap01/Function/Return_Static_2D_Array1.cpp)], [구조체 반환 [code1]()]
+    * 1.3 함수에서 2D 배열 반환 [동적배열 반환[code1](https://github.com/csbyun-data/CPP-Pro/blob/main/chap01/Function/Return_Dynamic_2D_Array1.cpp)], [정적배열 반환 [code1](https://github.com/csbyun-data/CPP-Pro/blob/main/chap01/Function/Return_Static_2D_Array1.cpp)], [구조체 반환 [code1](https://github.com/csbyun-data/CPP-Pro/blob/main/chap01/Function/Return_Struct_2D_Array1.cpp)]
