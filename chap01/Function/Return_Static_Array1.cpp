@@ -1,6 +1,7 @@
 // C++ Program to Demostrating returning of a local array
 // from a function Using static array
 // https://www.geeksforgeeks.org/how-to-return-a-local-array-from-a-cpp-function/
+// static 변수는 프로그램이 종료되기 전까지 메모리에 상주함
 
 #include <iostrem>
 using namespace std;
