@@ -3,9 +3,12 @@
 ###  Index
 * 1.Function Pointer
   * 1.1 member function pointer [code1](https://github.com/csbyun-data/CPP-Pro/blob/main/chap02/Function_Pointer/Function_Pointer1.cpp), [code2](https://github.com/csbyun-data/CPP-Pro/blob/main/chap02/Function_Pointer/Function_Pointer2.cpp)
-  * 1.2 Function pointer to member function of class [code1](https://github.com/csbyun-data/CPP-Pro/blob/main/chap02/Function_Pointer/Function_Pointer3.cpp)
+  * 1.2 Function pointer to member function of class [code1](https://github.com/csbyun-data/CPP-Pro/blob/main/chap02/Function_Pointer/Function_Pointer3.cpp), [typedef사용[code](https://github.com/csbyun-data/CPP-Pro/blob/main/chap02/Function_Pointer/Function_Pointer_typedef.c)]
   ```c
-  aaa
+  // Function pointer의 typedef 사용 예
+  typedef int (Calculrate::*t_cfp)(int, int);
+  ...
+  cfp = &Calculrate::add;
   ```
 
   * 1.3 함수를 객체로 사용
