@@ -4,7 +4,7 @@
 #include <iostream>
 using namespace std;
  
-void demo(int& a) {
+void demo(int &a) {
     a += 10;
 }
  
@@ -14,7 +14,7 @@ int main()
  
     // Now ptr contains address of demo function or void
     // [Error] invalid conversion from 'void (*)(int&)' to 'void (*)(int*)' [-fpermissive]
-    void (*ptr)(int*) = &demo; 
+    void (*ptr)(int *) = &demo; 
  
     // or (*ptr)(num);
     // [Error] invalid conversion from 'int' to 'int*' [-fpermissive]
