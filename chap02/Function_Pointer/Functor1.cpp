@@ -19,3 +19,5 @@ int main()
 
   for_each( vec.begin(), vec.end(), square);
 }
+
+// 1 4 9 16
