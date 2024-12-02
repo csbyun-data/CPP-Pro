@@ -1,3 +1,5 @@
+// https://www.cprogramming.com/snippets/source-code/function-pointer-to-member-function-of-class
+
 #include <iostream>
  
 using namespace std;
