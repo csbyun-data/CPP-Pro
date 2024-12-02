@@ -1,3 +1,8 @@
+// Warning error 발생 // Calculrate* c1 = new Calculrate{};
+// [Warning] extended initializer lists only available with -std=c++11 or -std=gnu++11
+​// Dev-C++ Tools 해결
+// Project Options > Compiler > Code Generation > (-std) GNU C++ 11 선택 후 컴파일 실행   
+    
 #include <iostream>
 
 class Calculrate
