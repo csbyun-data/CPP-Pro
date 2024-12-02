@@ -1,3 +1,5 @@
+// https://www.geeksforgeeks.org/returning-a-function-pointer-from-a-function-in-c-cpp/
+
 #include <stdio.h>
  
 int add(int a, int b) {
