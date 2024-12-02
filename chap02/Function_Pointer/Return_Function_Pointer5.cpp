@@ -1,4 +1,6 @@
 // 위의 code와 동일한 예제
+// https://www.geeksforgeeks.org/returning-a-function-pointer-from-a-function-in-c-cpp/
+
 #include <iostream>
  
 using namespace std;
