@@ -7,6 +7,15 @@ int main()
 
 	AS_CreateStack(&Stack, 10);
 
+	for (i = 0; i < 15; i++) {
+	  if (AS_IsFull(Stack)) {
+      cout << "Stack Is Full." << endl;
+      break;
+    }
+
+		AS_Push(Stack, i);
+	}
+
 	AS_Push(Stack, 3);
 	AS_Push(Stack, 37);
 	AS_Push(Stack, 11);
