@@ -1,4 +1,4 @@
-#include"LinkedListStack.h"
+#include"LinkedList_Stack.h"
 
 // Stack의 용량을 결정짓는 매개 변수를 필요로 하지 않는다.
 // 링크드 리스트 기반이므로 용량 제한에서 자유로운 것
