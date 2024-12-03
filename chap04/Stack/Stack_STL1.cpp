@@ -1,6 +1,7 @@
 //binary addition using stack in STL
-// Inclusion of header files
+// https://www.cprogramming.com/snippets/source-code/binary-addition-using-stack-stl
 
+// Inclusion of header files
 #include<iostream>
 #include<stack>
 using namespace std;
