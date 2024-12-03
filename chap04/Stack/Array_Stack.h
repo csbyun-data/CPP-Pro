@@ -5,7 +5,7 @@
 #include <cstdlib>
 using namespace std;
 
-typedef in ElementType;
+typedef int ElementType;
 
 typedef struct tagNode
 {
