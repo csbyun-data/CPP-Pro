@@ -17,7 +17,7 @@ Grammar of programming, a collection of basic materials for application.
   *   3.2 Parse XML response in C without using library
 
 * 4.Data Structure, Algorithm 
-  *   4.1 스택
+  *   4.1 스택 [here](https://github.com/csbyun-data/CPP-Pro/blob/main/chap04/Stack/README.md)
   *   4.2 Queue, 우선순위 Queue, Heap
   *   4.3 Linked List
   *   4.4 재귀용법
