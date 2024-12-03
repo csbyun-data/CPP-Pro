@@ -25,7 +25,7 @@ Grammar of programming, a collection of basic materials for application.
   *   4.6 그래프
   *   4.7 정렬
   *   4.8 탐색
-  *   4.9 해싱
+  *   4.9 해시 [here]()
 
 * 5.Project
   *   5.1 
