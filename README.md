@@ -9,7 +9,7 @@ Grammar of programming, a collection of basic materials for application.
   In Line Function : head, function, main을 한개의 파일로 작성
   Out Line Function : 파일을 head, function , driver부로 분리해서 작성
   ```
-  *  1.4 Library화 작업 [code1](), [code2](), 
+  *  1.4 Library화 작업 [code1](https://github.com/csbyun-data/CPP-Pro/blob/main/chap01/Library/CBase1.cpp), [code2](), 
   
 * 2.포인터, 배열, 문자열, 함수, 구조체, 공용체 
   *   2.1 포인터와 배열
