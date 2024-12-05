@@ -24,3 +24,5 @@ void main()
   p = AfxGetApp();
   p->WhoAreYou();
 }
+
+// Hello, World!
