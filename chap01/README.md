@@ -10,8 +10,24 @@
   Out Line Function : 파일을 head, function , driver부로 분리해서 작성
   ```
   *  1.4 Library화 작업 [code1](https://github.com/csbyun-data/CPP-Pro/blob/main/chap01/Library/CBase1.cpp), [code2](https://github.com/csbyun-data/CPP-Pro/blob/main/chap01/Library/CBase_Override1.cpp), [code3](https://github.com/csbyun-data/CPP-Pro/blob/main/chap01/Library/CBase2.cpp), [code4](https://github.com/csbyun-data/CPP-Pro/blob/main/chap01/Library/CBase3.cpp)
-    그림1
-    그림2
+  *  ![image](https://github.com/user-attachments/assets/333438ed-fb44-4741-b5be-80c06a762853)
+  ```c
+  class A {
+    virtual void Set( int a, int b) {...}
+    virtial void Move( int a, int b) {...}
+  };
+  
+  A theApp;
+  ```
+  *  ![image](https://github.com/user-attachments/assets/37c01e40-3873-428e-b958-4febb8c4947c)
+  ```c
+  class B : public A {
+    void Move( int a, int b) { ... }
+    void Reset() {...}
+  };
+
+  B theApp2;
+  ```
   *  1.5 Library화 작업2 [lib.h](https://github.com/csbyun-data/CPP-Pro/blob/main/chap01/Library/lib.h), [lib.cpp](https://github.com/csbyun-data/CPP-Pro/blob/main/chap01/Library/lib.cpp), [run.cpp](https://github.com/csbyun-data/CPP-Pro/blob/main/chap01/Library/run.cpp)
   *  
   
