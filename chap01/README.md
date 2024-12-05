@@ -33,5 +33,8 @@
   *  ![image](https://github.com/user-attachments/assets/7b1ccab7-cf65-4593-aa81-db07098402db)
   *  1.7 상속(inheritance), Reuse [here](https://github.com/csbyun-data/CPP-Pro/blob/main/chap01/Inheritance/README.md)
 
+*  2.Class 간략정리 [here]()
+
+
 
   
