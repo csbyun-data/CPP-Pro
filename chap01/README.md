@@ -29,5 +29,7 @@
   B theApp2;
   ```
   *  1.5 Library화 작업2 [lib.h](https://github.com/csbyun-data/CPP-Pro/blob/main/chap01/Library/lib.h), [lib.cpp](https://github.com/csbyun-data/CPP-Pro/blob/main/chap01/Library/lib.cpp), [run.cpp](https://github.com/csbyun-data/CPP-Pro/blob/main/chap01/Library/run.cpp)
-  *  
+  *  1.6 함수의 재정의 (Overriding) [CPoint.h](), [CPoint.cpp](), [CCircle.h](), [CCircle.cpp](), [CEllipse.cpp](), [main.cpp]()
+  *  ![image](https://github.com/user-attachments/assets/7b1ccab7-cf65-4593-aa81-db07098402db)
+
   
