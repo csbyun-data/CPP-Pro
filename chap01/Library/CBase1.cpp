@@ -20,3 +20,5 @@ void main()
   p = AfxGetApp();
   p->WhoAreYou();
 }
+
+// CBase
