@@ -35,8 +35,8 @@
     * 2.5 3D 배열 사용 [단일 포인터 사용 [code](https://github.com/csbyun-data/CPP-Pro/blob/main/chap01/Function/Single_Pointer_3D.cpp)], [트리플 포인터 사용[code](https://github.com/csbyun-data/CPP-Pro/blob/main/chap01/Function/Triple_Pointer_3D.cpp)]
 
 * 3.Friend Function
-    * 3.1 friend function을 class의 private variable의 접속이 가능하게 하는 함수, class에 권한 부여 [code]()
-    * 3.2 function에서 private변수 사용 [code]()
-    * 3.3 상속받은 class에서 private variable 사용  [code]()
-    * 3.4 상속 class, nested class사용 error 해결 문장 [code]()
+    * 3.1 friend function을 class의 private variable의 접속이 가능하게 하는 함수, class에 권한 부여 [code](https://github.com/csbyun-data/CPP-Pro/blob/main/chap01/Function/Friend_Function1.cpp)
+    * 3.2 function에서 private변수 사용 [code](https://github.com/csbyun-data/CPP-Pro/blob/main/chap01/Function/Friend_Function2.cpp)
+    * 3.3 상속받은 class에서 private variable 사용  [code1](https://github.com/csbyun-data/CPP-Pro/blob/main/chap01/Function/Friend_Function3_1.cpp), [code2](https://github.com/csbyun-data/CPP-Pro/blob/main/chap01/Function/Friend_Function3_2.cpp)
+    * 3.4 상속 class, nested class사용 error 해결 문장 [code](https://github.com/csbyun-data/CPP-Pro/blob/main/chap01/Function/Friend_Function4.cpp)
         
