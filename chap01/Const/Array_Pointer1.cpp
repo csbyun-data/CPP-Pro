@@ -5,8 +5,8 @@ using namespace std;
 
 int main()
 {
-	int arr[] = { 1, 2, 3};
-	std::cout << arr << std::endl;  // arr의 address 
+  int arr[] = { 1, 2, 3};
+  std::cout << arr << std::endl;  // arr의 address 
 }
 
 // 0x6ffe10
