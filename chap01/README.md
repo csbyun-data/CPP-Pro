@@ -39,6 +39,7 @@
   02) member reference 초기화
   03) 지역 변수를 이용한 초기화
   ```
+  * 1.9 Stream출력 객체 [here]()
   
 
 *  2.Class 간략정리 [[here](https://github.com/csbyun-data/CPP-Pro/blob/main/chap01/Class/README.md)]
