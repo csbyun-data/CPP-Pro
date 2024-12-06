@@ -2,9 +2,10 @@
 
 ### Index
 * 1.문법
-  *   1.1 함수 [here](https://github.com/csbyun-data/CPP-Pro/blob/main/chap01/Function/README.md)
-  *   1.2 얕은 복사와 깊은 복사, 정리 예정
-  *   1.3 In Line. Out Line Function [InLine [code](https://github.com/csbyun-data/CPP-Pro/blob/main/chap01/Line_Function/In_Line_Function.cpp)], [Out Line [CPoint.h](https://github.com/csbyun-data/CPP-Pro/blob/main/chap01/Line_Function/CPoint.h), [CPoint.cpp](https://github.com/csbyun-data/CPP-Pro/blob/main/chap01/Line_Function/CPoint.cpp), [main.cpp](https://github.com/csbyun-data/CPP-Pro/blob/main/chap01/Line_Function/main.cpp)]
+  *  1.1 배열 [here]
+  *  1.1 함수 [here](https://github.com/csbyun-data/CPP-Pro/blob/main/chap01/Function/README.md)
+  *  1.2 얕은 복사와 깊은 복사, 정리 예정
+  *  1.3 In Line. Out Line Function [InLine [code](https://github.com/csbyun-data/CPP-Pro/blob/main/chap01/Line_Function/In_Line_Function.cpp)], [Out Line [CPoint.h](https://github.com/csbyun-data/CPP-Pro/blob/main/chap01/Line_Function/CPoint.h), [CPoint.cpp](https://github.com/csbyun-data/CPP-Pro/blob/main/chap01/Line_Function/CPoint.cpp), [main.cpp](https://github.com/csbyun-data/CPP-Pro/blob/main/chap01/Line_Function/main.cpp)]
   ```txt
   In Line Function : head, function, main을 한개의 파일로 작성
   Out Line Function : 파일을 head, function , driver부로 분리해서 작성
