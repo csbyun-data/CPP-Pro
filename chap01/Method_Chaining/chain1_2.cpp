@@ -19,8 +19,8 @@ public:
 };
 
 int main() {
-	Calculation calc(0);
-	calc.add(5).sub(2).mul(6).print();
+  Calculation calc(0);
+  calc.add(5).sub(2).mul(6).print();
 }
 
 
