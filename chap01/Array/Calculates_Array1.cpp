@@ -1,3 +1,5 @@
+// https://www.cprogramming.com/snippets/source-code/calculates-1-variable-statistics
+
 #include <iostream.h>
 #include <math.h>
  
@@ -19,8 +21,7 @@ int main()
  
   double x[n];
  
-  for (int i = 0; i < n; i++)
-  {
+  for (int i = 0; i < n; i++) {
     cout << "Enter value for x[" << i << "]:";
     cin >> x[i];
   }
@@ -37,41 +38,34 @@ int main()
   return 0;
 }
  
-double x_avg(double x[], int n)
-{
+double x_avg(double x[], int n) {
   return (sum_x(x, n)/n);
 }
  
-double sum_x(double x[], int n)
-{
+double sum_x(double x[], int n) {
   double sum;
  
-  for (int i = 0; i < n; i++)
-  {
+  for (int i = 0; i < n; i++)   {
     sum += x[i];
   }
  
   return sum;
 }
  
-double sum_x_squared(double x[], int n)
-{
+double sum_x_squared(double x[], int n) {
   double sum_x_2;
  
-  for (int i = 0; i < n; i++)
-  {
+  for (int i = 0; i < n; i++) {
     sum_x_2 += pow(x[i], 2);
   }
  
   return sum_x_2;
 }
  
-double sample(double x[], int n)
-{
+double sample(double x[], int n) {
   double sample_stan_dev, sum_xi_x_2;
  
-  for (int i = 0; i < n; i++)
-  {
+  for (int i = 0; i < n; i++) {
     sum_xi_x_2 += pow(x[i] - x_avg(x, n), 2);
   }
  
@@ -80,12 +74,10 @@ double sample(double x[], int n)
   return sample_stan_dev;
 }
  
-double stan_dev(double x[], int n)
-{
+double stan_dev(double x[], int n) {
   double stan_deviation, sum_xi_x_2;
  
-  for (int i = 0; i < n; i++)
-  {
+  for (int i = 0; i < n; i++) {
     sum_xi_x_2 += pow(x[i] - x_avg(x, n), 2);
   }
  
@@ -94,17 +86,14 @@ double stan_dev(double x[], int n)
   return stan_deviation;
 }
  
-int number(int n)
-{
+int number(int n) {
   return n;
 }
  
-double xmin(double x[], int n)
-{
+double xmin(double x[], int n) {
   double minx = x[0];
  
-  for (int i = 0; i < n; i++)
-  {
+  for (int i = 0; i < n; i++) {
     if (x[i] < minx)
       minx = x[i];
   }
@@ -112,12 +101,10 @@ double xmin(double x[], int n)
   return minx;
 }
  
-double xmax(double x[], int n)
-{
+double xmax(double x[], int n) {
   double maxx = x[0];
  
-  for (int i = 0; i < n; i++)
-  {
+  for (int i = 0; i < n; i++) {
     if (x[i] > maxx)
       maxx = x[i];
   }
