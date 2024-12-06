@@ -1,3 +1,5 @@
+// https://blog.naver.com/bulljy/222422816562
+// 8.7 this 포인터와 연쇄 호출 Chaining Member Functions
 // chaining method 2번째 방법
 
 #include<iostream>
