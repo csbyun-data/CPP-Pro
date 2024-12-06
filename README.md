@@ -36,8 +36,8 @@ Grammar of programming, a collection of basic materials for application.
   *   5.2 
   *   5.3 
 
-* 6.참조
-  * 6.1 [참조: [www.cprogramming.com](https://www.cprogramming.com/tutorial/c++-tutorial.html)]
-  * 6.2 [참조: [www.cprogramming.com/snippets](https://www.cprogramming.com/snippets/)]
-  * 6.3 [참조: [www.java2s.com](http://www.java2s.com/Code/Cpp/)]
+### 참조 LIST
+  * 1 [참조: [www.cprogramming.com](https://www.cprogramming.com/tutorial/c++-tutorial.html)]
+  * 2 [참조: [www.cprogramming.com/snippets](https://www.cprogramming.com/snippets/)]
+  * 3 [참조: [www.java2s.com](http://www.java2s.com/Code/Cpp/)]
      
