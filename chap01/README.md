@@ -53,7 +53,14 @@
    3. MFC library 사용 Template
    4. 함수 템플릿(Function Template)
   ```
-  
+  * 1.13 const, static const 사용 [here]()
+  ```txt
+    1-1. const keyword 사용
+    1-2. const member 함수 사용
+    1-3. static const 변수 사용
+    2-1. 배열과 포인터
+    2-2 포인터의 const 모드
+  ```  
 
 *  2.Class 간략정리 [[here](https://github.com/csbyun-data/CPP-Pro/blob/main/chap01/Class/README.md)]
 
