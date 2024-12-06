@@ -33,3 +33,10 @@
 
     * 2.4 2D 배열 사용 [단일 포인터 사용 [code](https://github.com/csbyun-data/CPP-Pro/blob/main/chap01/Function/Single_Pointer_2D.cpp)], [포인터 배열 사용 [code](https://github.com/csbyun-data/CPP-Pro/blob/main/chap01/Function/Array_Pointer_2D.cpp)]
     * 2.5 3D 배열 사용 [단일 포인터 사용 [code](https://github.com/csbyun-data/CPP-Pro/blob/main/chap01/Function/Single_Pointer_3D.cpp)], [트리플 포인터 사용[code](https://github.com/csbyun-data/CPP-Pro/blob/main/chap01/Function/Triple_Pointer_3D.cpp)]
+
+* 3.Friend Function
+    * 3.1 friend function을 class의 private variable의 접속이 가능하게 하는 함수, class에 권한 부여
+    * 3.2 function에서 private변수 사용
+    * 3.3 상속받은 class에서 private variable 사용
+    * 
+        
