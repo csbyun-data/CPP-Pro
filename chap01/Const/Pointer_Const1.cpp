@@ -1,4 +1,8 @@
 // const int* data_ptr 예제
+
+// [Error] assignment of read-only location '* ptr'
+// [Error] assignment of read-only location '* arr_ptr'
+
 #include <iostream>
 
 using namespace std;
