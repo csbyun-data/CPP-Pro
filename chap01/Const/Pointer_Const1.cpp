@@ -18,6 +18,6 @@ int main()
 
   *arr_ptr = 40; // Error 
   arr_ptr = brr;  // Ok
-	
-	return 0;
+
+  return 0;
 }
