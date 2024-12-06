@@ -4,16 +4,16 @@ using namespace std;
 
 int main()
 {
-	int arr[] = { 10, 20, 30};
-	int* arr_ptr = arr;
-	
-	cout << arr_ptr << endl;
-	cout << (arr_ptr + 1) << endl;
-	cout << (arr_ptr + 2) << endl;
-	
-	cout << *arr_ptr << endl;
-	cout << *(arr_ptr + 1) << endl;
-	cout << *(arr_ptr + 2) << endl;
+  int arr[] = { 10, 20, 30};
+  int* arr_ptr = arr;
+
+  cout << arr_ptr << endl;
+  cout << (arr_ptr + 1) << endl;
+  cout << (arr_ptr + 2) << endl;
+
+  cout << *arr_ptr << endl;
+  cout << *(arr_ptr + 1) << endl;
+  cout << *(arr_ptr + 2) << endl;
 }
 
 /*
