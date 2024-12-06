@@ -1,3 +1,5 @@
+// chaining method 2번째 방법
+
 #include<iostream>
 #include <string>
 using namespace std;
