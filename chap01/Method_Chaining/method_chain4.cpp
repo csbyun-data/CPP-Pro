@@ -14,9 +14,8 @@ public:
 	int getnum() { return a; }
 	void print() { cout << a << endl; }
 };
+
 int main() {
 	Calculation calc(0);
 	calc.add(5)->sub(2)->mul(6)->print();
 }
-[출처] [C/C++] 8.7 this 포인터와 연쇄 호출 Chaining Member Functions|작성자 2je0
-
