@@ -1,3 +1,5 @@
+// https://blog.naver.com/bulljy/222422816562
+// 8.7 this 포인터와 연쇄 호출 Chaining Member Functions
 // chaining method 1번째 방법
 
 #include<iostream>
@@ -5,16 +7,14 @@
 using namespace std;
 
 class Calculation {
-	int a;
+  int a;
 public:
-	Calculation(const int& a_in)
-		: a(a_in)
-	{}
-	Calculation* add(const int& b) { a += b; return this; }
-	Calculation* sub(const int& b) { a -= b; return this; }
-	Calculation* mul(const int& b) { a *= b; return this; }
-	int getnum() { return a; }
-	void print() { cout << a << endl; }
+	Calculation(const int& a_in) : a(a_in) {}
+  Calculation* add(const int& b) { a += b; return this; }
+  Calculation* sub(const int& b) { a -= b; return this; }
+  Calculation* mul(const int& b) { a *= b; return this; }
+  int getnum() { return a; }
+  void print() { cout << a << endl; }
 };
 
 int main() {
