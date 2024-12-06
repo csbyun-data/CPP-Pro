@@ -46,7 +46,7 @@
    1. static function, non-static function 활용, 초기화
    2. static, non-static function 사용법
   ```
-  * 1.12 class, function template 사용법
+  * 1.12 class, function template 사용법 [code1](https://github.com/csbyun-data/CPP-Pro/blob/main/chap01/Template/Template1.cpp), [code2](https://github.com/csbyun-data/CPP-Pro/blob/main/chap01/Template/Template2.cpp), [code3](https://github.com/csbyun-data/CPP-Pro/blob/main/chap01/Template/Template_MFC.cpp), [code4](https://github.com/csbyun-data/CPP-Pro/blob/main/chap01/Template/Function_Template1.cpp), [code5](https://github.com/csbyun-data/CPP-Pro/blob/main/chap01/Template/Function_Template2.cpp)
   ```txt
    1. 자료형을 T로 1개 사용하는 예
    2. 자료형을 T1, T2로 2개를 사용하는 예
