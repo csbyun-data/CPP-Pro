@@ -46,6 +46,13 @@
    1. static function, non-static function 활용, 초기화
    2. static, non-static function 사용법
   ```
+  * 1.12 class, function template 사용법
+  ```txt
+   1. 자료형을 T로 1개 사용하는 예
+   2. 자료형을 T1, T2로 2개를 사용하는 예
+   3. MFC library 사용 Template
+   4. 함수 템플릿(Function Template)
+  ```
   
 
 *  2.Class 간략정리 [[here](https://github.com/csbyun-data/CPP-Pro/blob/main/chap01/Class/README.md)]
