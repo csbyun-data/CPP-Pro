@@ -1,3 +1,5 @@
+// Function_Template1.cpp를 function template로 변경
+
 #include <stdio.h>
 template <typename T>  //동일표현: template <class T> 자료형 template
 T max(T a, T b)
