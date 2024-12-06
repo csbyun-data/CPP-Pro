@@ -42,5 +42,5 @@
 
 * 4.Member function을 연산자 <<로 사용
     * 4.1 Set Function을 사용하여 private variable 값을 변경 [code1](https://github.com/csbyun-data/CPP-Pro/blob/main/chap01/Function/Member_Function1.cpp), [code2](https://github.com/csbyun-data/CPP-Pro/blob/main/chap01/Function/Member_Function2.cpp)
-    * 4.2 Friend 함수 및 전역 함수로 활용
+    * 4.2 Friend 함수 및 전역 함수로 활용 [code](https://github.com/csbyun-data/CPP-Pro/blob/main/chap01/Function/Member_Function3.cpp)
     * 4.3 Friend operator <<로 변경        
