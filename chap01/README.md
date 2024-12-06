@@ -53,7 +53,7 @@
    3. MFC library 사용 Template
    4. 함수 템플릿(Function Template)
   ```
-  * 1.13 const, static const 사용 [here]()
+  * 1.13 const, static const 사용 [here](https://github.com/csbyun-data/CPP-Pro/blob/main/chap01/Const/READMD.md)
   ```txt
     1-1. const keyword 사용
     1-2. const member 함수 사용
