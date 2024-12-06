@@ -1,10 +1,23 @@
 ## 1.Functions
 ### Index
-* 1.Functions call [[call by value](https://github.com/csbyun-data/CPP-Pro/blob/main/chap01/Function/Call_by_value1.cpp), [call by address](https://github.com/csbyun-data/CPP-Pro/blob/main/chap01/Function/Call_by_address1.cpp), [call by reference1](https://github.com/csbyun-data/CPP-Pro/blob/main/chap01/Function/Call_by_reference1.cpp), [call by reference2](https://github.com/csbyun-data/CPP-Pro/blob/main/chap01/Function/Call_by_reference2.cpp)]
+* 1.Functions call [[call by value](https://github.com/csbyun-data/CPP-Pro/blob/main/chap01/Function/Call_by_value1.cpp), [call by address](https://github.com/csbyun-data/CPP-Pro/blob/main/chap01/Function/Call_by_address1.cpp), [call by reference1](https://github.com/csbyun-data/CPP-Pro/blob/main/chap01/Function/Call_by_reference1.cpp)
     ```cpp
     1. call by value
     2. call by address
     3. call by reference
+    // Reference Variable 처리
+    int a;
+    int &b = a;
+
+    // function 처리
+    void Ref(int &b) {}  //2. 처리
+
+    void main()
+    {
+      int a = 2;
+      Ref(a);  //1. int &b = a;
+    }
+
     ```
 * 2.Functions return
    * 2.1 함수에서 Local Variable 반환 [문제있는 [code](https://github.com/csbyun-data/CPP-Pro/blob/main/chap01/Function/Return_Local_Variable1.cppp)],[동적배열 반환[code1](https://github.com/csbyun-data/CPP-Pro/blob/main/chap01/Function/Return_Dynamic_Array2.cpp)], [정적변수 반환[code2](https://github.com/csbyun-data/CPP-Pro/blob/main/chap01/Function/Return_Static_Variable1.cpp)]
