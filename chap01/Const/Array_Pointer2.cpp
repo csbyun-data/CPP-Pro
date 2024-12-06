@@ -5,16 +5,16 @@ using namespace std;
 
 int main()
 {
-	int arr[] = { 10, 20, 30};
-	
-	cout << arr << endl;
-	cout << *arr << endl;
-	cout << arr[0] << endl;
-	
-	int* arr_ptr = arr;
-	
-	cout << arr_ptr << endl;
-	cout << *arr_ptr << endl;
+  int arr[] = { 10, 20, 30};
+
+  cout << arr << endl;
+  cout << *arr << endl;
+  cout << arr[0] << endl;
+
+  int* arr_ptr = arr;
+
+  cout << arr_ptr << endl;
+  cout << *arr_ptr << endl;
 }
 
 /*
