@@ -6,7 +6,7 @@
 using namespace std;
 
 class Simple {
-	int id;
+  int id;
 public:
 	Simple(const int& in) {
 		setid(in);
