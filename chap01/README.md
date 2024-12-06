@@ -60,7 +60,8 @@
     1-3. static const 변수 사용
     2-1. 배열과 포인터
     2-2 포인터의 const 모드
-  ```  
+  ```
+  * 1.14 Method Chaining [code]()
 
 *  2.Class 간략정리 [[here](https://github.com/csbyun-data/CPP-Pro/blob/main/chap01/Class/README.md)]
 
