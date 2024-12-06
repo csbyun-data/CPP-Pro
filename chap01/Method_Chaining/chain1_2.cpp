@@ -16,7 +16,7 @@ public:
   Calculation& mul(const int& b) { a *= b; return *this; }
 
   int getnum() { return a; }
-	void print() { cout << a << endl; }
+  void print() { cout << a << endl; }
 };
 
 int main() {
