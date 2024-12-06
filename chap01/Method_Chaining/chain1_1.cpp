@@ -9,7 +9,7 @@ using namespace std;
 class Calculation {
   int a;
 public:
-	Calculation(const int& a_in) : a(a_in) {}
+  Calculation(const int& a_in) : a(a_in) {}
   Calculation* add(const int& b) { a += b; return this; }
   Calculation* sub(const int& b) { a -= b; return this; }
   Calculation* mul(const int& b) { a *= b; return this; }
@@ -18,6 +18,6 @@ public:
 };
 
 int main() {
-	Calculation calc(0);
-	calc.add(5)->sub(2)->mul(6)->print();
+  Calculation calc(0);
+  calc.add(5)->sub(2)->mul(6)->print();
 }
