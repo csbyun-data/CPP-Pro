@@ -1,3 +1,4 @@
+// bin파일 입출력
 #include <iostream>
 #include <fstream>
 
