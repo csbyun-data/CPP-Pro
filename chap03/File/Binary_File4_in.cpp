@@ -1,3 +1,5 @@
+// https://blog.naver.com/errxp/222881810759, 이진파일 입출력하기
+
 #include <iostream>
 #include <fstream>
 #include <string>
@@ -19,7 +21,7 @@ int main()
 
   cout << "int a: " << a << endl;
   cout << "int b: " << b << endl;
-  cout << "double c: " << c << endl;
+  cout << "double c: " << c << endl; //저장 자료와 read자료의 error문제 
 
   cout << "int arr[3]: ";
   for( int i=0; i<3; i++)
