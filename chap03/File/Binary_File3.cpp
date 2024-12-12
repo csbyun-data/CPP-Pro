@@ -1,4 +1,5 @@
-// bin파일 입출력
+// bin파일, 문자, 문자배열 저장
+
 #include <iostream>
 #include <fstream>
 
