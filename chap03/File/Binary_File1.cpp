@@ -1,4 +1,5 @@
-//파일출력 스트림 객체 생성
+// 파일출력 스트림 객체 생성
+// ifstream (read) / ofstream (write) / fstream (read, write) 
 #include <iostream>
 #include <fstream>
 
