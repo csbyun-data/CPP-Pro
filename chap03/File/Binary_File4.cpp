@@ -1,4 +1,4 @@
-// 숫자형, 배열, 문자열 저장
+// bin파일, 숫자형, 숫자 배열, String형 저장
 
 #include <iostream>
 #include <fstream>
