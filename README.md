@@ -15,6 +15,7 @@ Grammar of programming, a collection of basic materials for application.
 * 2.3 메모리 동적할당
 * 2.4 함수 포인터 [here](https://github.com/csbyun-data/CPP-Pro/blob/main/chap02/Function_Pointer/README.md)
 * 2.4 구조체, 공용체
+* 2.5 class 배열 활용 [code]()
   
 ### 3.File I/O 
 * 3.1 File I/O [here](https://github.com/csbyun-data/CPP-Pro/blob/main/chap03/README.md)
