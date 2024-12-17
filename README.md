@@ -41,4 +41,5 @@ Grammar of programming, a collection of basic materials for application.
 * 1 [참조: [www.cprogramming.com](https://www.cprogramming.com/tutorial/c++-tutorial.html)]
 * 2 [참조: [www.cprogramming.com/snippets](https://www.cprogramming.com/snippets/)]
 * 3 [참조: [www.java2s.com](http://www.java2s.com/Code/Cpp/)]
+* 4 [참조: [sedgewick-cpp](https://github.com/sergey-pashaev/sedgewick-cpp)]
      
