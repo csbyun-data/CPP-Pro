@@ -31,7 +31,7 @@
     a[2].set(32, "show me the money");
     ```
  
-* 2.c++, new, delete 사용
+* 2.C++, new, delete 사용
   ```txt
   1) 변수 사용
     int *p = new int;
