@@ -19,7 +19,7 @@
     }
 
     ```
-    * 1.1 Pass by reference( Call by Reference) [code1](https://github.com/csbyun-data/CPP-Pro/blob/main/chap01/Function/Passing_Arrays.cpp), [code2](https://github.com/csbyun-data/CPP-Pro/blob/main/chap01/Function/Pass_by_Reference.cpp), [code3](), [code4](), [code5]()
+    * 1.1 Pass by reference( Call by Reference) [code1](https://github.com/csbyun-data/CPP-Pro/blob/main/chap01/Function/Passing_Array.cpp), [code2](https://github.com/csbyun-data/CPP-Pro/blob/main/chap01/Function/Pass_by_Reference.cpp), [code3](), [code4](), [code5]()
     ```txt
     01) 함수에 배열 전달(Passing arrays to function)
       배열의 이름은 배열의 address를 가르킨다.
