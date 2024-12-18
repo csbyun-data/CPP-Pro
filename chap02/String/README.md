@@ -8,6 +8,16 @@
   * 1.5 문자열형 숫자를 숫자형 변수로 변경
   ```txt
   // [Error] invalid cast from type 'std::string {aka std::basic_string<char>}' to type 'int'
+  #include <iostream>
+  #include <string>
+  using namespace std;
+  
+  int main() {
+    string str = "7";
+    int num;
+  
+    num = (int)str; //<- Error 발생
+  }
   ```
   
 
