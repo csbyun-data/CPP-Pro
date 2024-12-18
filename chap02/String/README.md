@@ -6,6 +6,10 @@
   * 1.3 문자열 Class생성 [code](https://github.com/csbyun-data/CPP-Pro/blob/main/chap02/String/Class_String.cpp)
   * 1.4 문자열 iterator사용 [code](https://github.com/csbyun-data/CPP-Pro/blob/main/chap02/String/String_iterator.cpp)
   * 1.5 문자열형 숫자를 숫자형 변수로 변경
+  ```txt
+  // [Error] invalid cast from type 'std::string {aka std::basic_string<char>}' to type 'int'
+  ```
+  
 
 
 ### 참조 LIST
