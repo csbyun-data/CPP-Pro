@@ -7,19 +7,19 @@ void swap(int& a, int& b);
 
 int main()
 {
-	int x = 1, y = 2;
-	cout << x << ' ' << y << endl;
-	
-	swap(x, y);
-	cout << x << ' ' << y << endl;
-	
-	return 0;
+  int x = 1, y = 2;
+  cout << x << ' ' << y << endl;
+  
+  swap(x, y);
+  cout << x << ' ' << y << endl;
+  
+  return 0;
 }
 
 void swap(int& a, int& b) {
-	int tmp = a;
-	a = b;
-	b = tmp;
+  int tmp = a;
+  a = b;
+  b = tmp;
 }
 
 /*
