@@ -5,15 +5,14 @@ void foo(int &a);
 
 int main()
 {
-	const int x = 1;
-
-	foo(x);
-	cout << x << endl;
-	
-	return 0;
+  const int x = 1;
+  
+  foo(x);
+  cout << x << endl;
+  
+  return 0;
 }
 
-void foo(int &a)
-{
-	a = 2;
+void foo(int &a) {
+  a = 2;
 }
