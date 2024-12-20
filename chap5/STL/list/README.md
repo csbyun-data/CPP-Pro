@@ -13,3 +13,5 @@
     * 1.10 list의 범위 안에서 최대값을 찾음
     * 1.11 assign()로 데이터 추가
     * 1.12 assign() 활용하여 list의 요소를 다른 list의 요소로 변경
+
+* 참조 [www.java2s.com/Code/Cpp/List/CatalogList.htm](http://www.java2s.com/Code/Cpp/List/CatalogList.htm)
