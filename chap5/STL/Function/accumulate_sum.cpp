@@ -1,4 +1,6 @@
 // 1+2+3+.. + 10 = 55 값을 구한는 예
+// accumulator 함수는 배열의 합, 리스트의 모든 원소의 합, 곱.. 등 나열된 원소의 특정한 연산을 할때 사용
+
 #include <iostream>
 
 #include <numeric>
