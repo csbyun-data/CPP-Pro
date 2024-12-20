@@ -10,6 +10,8 @@
     accumulator 함수는 배열의 합, 리스트의 모든 원소의 합, 곱.. 등 나열된 원소의 특정한 연산을 할때 사용
     // accumulate의 함수 예
       inline int accumulate (int* _F, int* _L, int _V, int (*_B)(int, int));
+    // accumulate의 함수 예
+      inline int accumulate (int* _F, int* _L, int _V, CAdd _B);
     ```
 
 * 3.참조
