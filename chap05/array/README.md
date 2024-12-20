@@ -5,6 +5,7 @@
     * 1.2 인접 차분 algorithem
     ```txt
     https://en.cppreference.com/w/cpp/algorithm/adjacent_difference
+    https://en.cppreference.com/w/cpp/algorithm/partial_sum
     ```
     * 1.3 부분합 알고리즘
     * 1.4 배열의 최대값, 최소값 얻기
