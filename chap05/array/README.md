@@ -8,7 +8,7 @@
     https://en.cppreference.com/w/cpp/algorithm/partial_sum
     ```
     * 1.3 부분합 알고리즘
-    * 1.4 배열의 최대값, 최소값 얻기
+    * 1.4 배열의 최대값, 최소값 얻기 [code](https://github.com/csbyun-data/CPP-Pro/blob/main/chap05/array/Max_Min.cpp)
     * 1.5 4보다 큰숫자를 앞에 배치, 작은 숫자는 뒤에 배치 [code](https://github.com/csbyun-data/CPP-Pro/blob/main/chap05/array/array05.cpp)
 
 * 참조
