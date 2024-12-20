@@ -20,4 +20,4 @@
   * 2.12 Sort a subset of the container
   * 2.13 Sort random number
 
-* 참조 [www.java2s.com/Code/Cpp/STL-Algorithms-Sorting/sort.htm](http://www.java2s.com/Code/Cpp/STL-Algorithms-Sorting/sort.htm))
+* 참조 [www.java2s.com/Code/Cpp/STL-Algorithms-Sorting/sort.htm](http://www.java2s.com/Code/Cpp/STL-Algorithms-Sorting/sort.htm)
