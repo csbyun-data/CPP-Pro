@@ -8,18 +8,18 @@
 
 
 * 2.sort
-  * 2.1 random_shuffle() 함수 활용 배열 섞기
-  * 2.2 Sort a vector and print out the sorted elements
-  * 2.3 Sort all element in an array
-  * 2.4 Sort part of the elements in an array
-  * 2.5 Sort a vector into ascending order of id members
-  * 2.6 Sort elements in deque
-  * 2.7 Sort elements reversely with custom function
-  * 2.8 Use custom function and sort to sort strings by length
-  * 2.9 Sorting user-defined class
-  * 2.10 Sort the entire container
-  * 2.11 Sort into descending order by using greater
-  * 2.12 Sort a subset of the container
-  * 2.13 Sort random number
+  * 2.1 random_shuffle() 함수 활용 배열 섞기 [code](https://github.com/csbyun-data/CPP-Pro/blob/main/chap05/sort/sort2_01.cpp)
+  * 2.2 Sort a vector and print out the sorted elements [code](https://github.com/csbyun-data/CPP-Pro/blob/main/chap05/sort/sort2_02.cpp)
+  * 2.3 Sort all element in an array [code](https://github.com/csbyun-data/CPP-Pro/blob/main/chap05/sort/sort2_03.cpp)
+  * 2.4 Sort part of the elements in an array [code](https://github.com/csbyun-data/CPP-Pro/blob/main/chap05/sort/sort2_04.cpp)
+  * 2.5 Sort a vector into ascending order of id members [code](https://github.com/csbyun-data/CPP-Pro/blob/main/chap05/sort/sort2_05.cpp)
+  * 2.6 Sort elements in deque [code](https://github.com/csbyun-data/CPP-Pro/blob/main/chap05/sort/sort2_06.cpp)
+  * 2.7 Sort elements reversely with custom function [code](https://github.com/csbyun-data/CPP-Pro/blob/main/chap05/sort/sort2_07.cpp)
+  * 2.8 Use custom function and sort to sort strings by length [code](https://github.com/csbyun-data/CPP-Pro/blob/main/chap05/sort/sort2_08.cpp)
+  * 2.9 Sorting user-defined class [code](https://github.com/csbyun-data/CPP-Pro/blob/main/chap05/sort/sort2_09.cpp)
+  * 2.10 Sort the entire container [code](https://github.com/csbyun-data/CPP-Pro/blob/main/chap05/sort/sort2_10.cpp)
+  * 2.11 Sort into descending order by using greater [code](https://github.com/csbyun-data/CPP-Pro/blob/main/chap05/sort/sort2_11.cpp)
+  * 2.12 Sort a subset of the container [code](https://github.com/csbyun-data/CPP-Pro/blob/main/chap05/sort/sort2_12.cpp)
+  * 2.13 Sort random number [code](https://github.com/csbyun-data/CPP-Pro/blob/main/chap05/sort/sort2_13.cpp)
 
 * 참조 [www.java2s.com/Code/Cpp/STL-Algorithms-Sorting/sort.htm](http://www.java2s.com/Code/Cpp/STL-Algorithms-Sorting/sort.htm)
