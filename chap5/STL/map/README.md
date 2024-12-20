@@ -11,3 +11,5 @@
     * 1.8 Computing an inner product of tuples represented as maps
     * 1.9 Use a map to create a phone directory
     * 1.10 Get the size of a map, Put value to map with assignment
+
+* 참조 [www.java2s.com/Code/Cpp/Map-Multimap/map.htm](http://www.java2s.com/Code/Cpp/Map-Multimap/map.htm)
