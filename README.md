@@ -37,6 +37,7 @@ Grammar of programming, a collection of basic materials for application.
 * 5.2 list [here](https://github.com/csbyun-data/CPP-Pro/blob/main/chap05/list/README.md)
 * 5.3 map [here](https://github.com/csbyun-data/CPP-Pro/blob/main/chap05/map/README.md)
 * 5.4 sort algorithm [here](https://github.com/csbyun-data/CPP-Pro/blob/main/chap05/sort/README.md)
+* 5.5 내적, 차분 배열 algorithm [here](https://github.com/csbyun-data/CPP-Pro/blob/main/chap05/array/README.md)
 
 ## 6.Project
 * 6.1 
