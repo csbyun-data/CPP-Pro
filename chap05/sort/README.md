@@ -3,7 +3,7 @@
 * 1.sort algorithm
   * 1.1 Using an in-place generic sort algorithm [code](https://github.com/csbyun-data/CPP-Pro/blob/main/chap05/sort/sort01.cpp)
   * 1.2 Using the STL generic reverse algorithm with an array [code](https://github.com/csbyun-data/CPP-Pro/blob/main/chap05/sort/sort02.cpp)
-  * 1.3 Using reverse_copy to copy the array reversely  [code](https://github.com/csbyun-data/CPP-Pro/blob/main/chap05/sort/sort03.cpp)
+  * 1.3 Using reverse_copy to copy the array reversely [code](https://github.com/csbyun-data/CPP-Pro/blob/main/chap05/sort/sort03.cpp)  
   ![image](https://github.com/user-attachments/assets/1216cbfe-46d7-43d4-bbc5-e9b87e9aca7e)
 
 
