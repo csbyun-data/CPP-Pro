@@ -50,4 +50,5 @@ Grammar of programming, a collection of basic materials for application.
 * 3 [참조: [www.java2s.com](http://www.java2s.com/Code/Cpp/)]
 * 4 [참조: 알고리즘, [sedgewick-cpp](https://github.com/sergey-pashaev/sedgewick-cpp)]
 * 5 [참조: [www.learncpp.com](https://www.learncpp.com)]
-     
+* 6 [참조: [www.geeksforgeeks.org/c-plus-plus/](https://www.geeksforgeeks.org/c-plus-plus/)]
+* 7 [참조: [www.w3schools.com/cpp/](https://www.w3schools.com/cpp/default.asp)]
