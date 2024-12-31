@@ -10,12 +10,14 @@ Grammar of programming, a collection of basic materials for application.
 * Library화 작업
 * 함수의 재정의 (Overriding)
   
-## 포인터, 배열, 문자열, 함수, 구조체, 공용체 
-* 포인터와 배열
-* [배열과 문자열](https://github.com/csbyun-data/CPP-Pro/blob/main/chap02/String/README.md)
+## Pointer, Array, String, Function
+* Pointer and Array
+* [Array and String](https://github.com/csbyun-data/CPP-Pro/blob/main/chap02/String/README.md)
 * 메모리 동적할당
 * [Function Pointer](https://github.com/csbyun-data/CPP-Pro/blob/main/chap02/Function_Pointer/README.md)
-* 구조체, 공용체
+
+## Structure, Union
+* Structure, Union
 * [class 배열 활용](https://github.com/csbyun-data/CPP-Pro/blob/main/chap02/Class/README.md)
   
 ## File I/O 
