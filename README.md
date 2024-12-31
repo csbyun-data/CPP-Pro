@@ -1,57 +1,54 @@
 # C++ Programming language code
 Grammar of programming, a collection of basic materials for application.
 ## Index
-## 1.문법
+## Systax
 * [Syntax](https://github.com/csbyun-data/CPP-Pro/blob/main/chap01/README.md) 
-* 1.1 배열
-* 1.2 함수
-* 1.3 얕은 복사와 깊은 복사, 정리 예정
-* 1.4 In Line. Out Line Function
-* 1.5 Library화 작업
-* 1.6 함수의 재정의 (Overriding)
+* 배열
+* 함수
+* 얕은 복사와 깊은 복사, 정리 예정
+* In Line. Out Line Function
+* Library화 작업
+* 함수의 재정의 (Overriding)
   
-## 2.포인터, 배열, 문자열, 함수, 구조체, 공용체 
-* 2.1 포인터와 배열
-* 2.2 배열과 문자열 [here](https://github.com/csbyun-data/CPP-Pro/blob/main/chap02/String/README.md)
-* 2.3 메모리 동적할당
-* 2.4 함수 포인터 [here](https://github.com/csbyun-data/CPP-Pro/blob/main/chap02/Function_Pointer/README.md)
-* 2.4 구조체, 공용체
-* 2.5 class 배열 활용 [here](https://github.com/csbyun-data/CPP-Pro/blob/main/chap02/Class/README.md)
+## 포인터, 배열, 문자열, 함수, 구조체, 공용체 
+* 포인터와 배열
+* [배열과 문자열](https://github.com/csbyun-data/CPP-Pro/blob/main/chap02/String/README.md)
+* 메모리 동적할당
+* [Function Pointer](https://github.com/csbyun-data/CPP-Pro/blob/main/chap02/Function_Pointer/README.md)
+* 구조체, 공용체
+* [class 배열 활용](https://github.com/csbyun-data/CPP-Pro/blob/main/chap02/Class/README.md)
   
-## 3.File I/O 
-* 3.1 File I/O [here](https://github.com/csbyun-data/CPP-Pro/blob/main/chap03/README.md)
-* 3.2 Parse XML response in C without using library
+## File I/O 
+* [File I/O](https://github.com/csbyun-data/CPP-Pro/blob/main/chap03/README.md)
 
-## 4.Data Structure, Algorithm 
-* 4.1 스택 [here](https://github.com/csbyun-data/CPP-Pro/blob/main/chap04/Stack/README.md)
-* 4.2 Queue, 우선순위 Queue, Heap [here](https://github.com/csbyun-data/CPP-Pro/blob/main/chap04/Queue/README.md)
-* 4.3 Linked List [here](https://github.com/csbyun-data/CPP-Pro/blob/main/chap04/LinkeList/README.md)
-* 4.4 재귀용법
-* 4.5 binary Tree
-* 4.6 그래프
-* 4.7 정렬
-* 4.8 탐색
-* 4.9 해시 [here]()
+## Data Structure, Algorithm 
+* [Stack](https://github.com/csbyun-data/CPP-Pro/blob/main/chap04/Stack/README.md)
+* Queue, 우선순위 Queue, Heap [here](https://github.com/csbyun-data/CPP-Pro/blob/main/chap04/Queue/README.md)
+* [Linked List](https://github.com/csbyun-data/CPP-Pro/blob/main/chap04/LinkeList/README.md)
+* 재귀용법
+* Binary Tree
+* 그래프
+* Sorting
+* Search
+* 해시
 
-## 5.STL
-* 5.1 Function [here](https://github.com/csbyun-data/CPP-Pro/blob/main/chap05/Function/README.md)
-* 5.2 list [here](https://github.com/csbyun-data/CPP-Pro/blob/main/chap05/list/README.md)
-* 5.3 map [here](https://github.com/csbyun-data/CPP-Pro/blob/main/chap05/map/README.md)
-* 5.4 sort algorithm [here](https://github.com/csbyun-data/CPP-Pro/blob/main/chap05/sort/README.md)
-* 5.5 내적, 차분 배열 algorithm [here](https://github.com/csbyun-data/CPP-Pro/blob/main/chap05/array/README.md)
+## STL
+* [Function](https://github.com/csbyun-data/CPP-Pro/blob/main/chap05/Function/README.md)
+* [List](https://github.com/csbyun-data/CPP-Pro/blob/main/chap05/list/README.md)
+* [Map](https://github.com/csbyun-data/CPP-Pro/blob/main/chap05/map/README.md)
+* [Sort algorithm](https://github.com/csbyun-data/CPP-Pro/blob/main/chap05/sort/README.md)
+* [내적, 차분 배열 algorithm](https://github.com/csbyun-data/CPP-Pro/blob/main/chap05/array/README.md)
 
-## 6.Project
-* 6.1 
-* 6.2 
-* 6.3 
+## Project
+* 
 
-## 참조 LIST
-* 1 [참조: [www.cprogramming.com](https://www.cprogramming.com/tutorial/c++-tutorial.html)]
-* 2 [참조: [www.cprogramming.com/snippets](https://www.cprogramming.com/snippets/)]
-* 3 [참조: [www.java2s.com/code/Cpp](http://www.java2s.com/Code/Cpp/)]
-* - [참조: [www.java2s.com/ref/cpp/](http://www.java2s.com/ref/cpp/cpp.html)]
-* - [참조: [www.java2s.com/Tutorial/Cpp/](http://www.java2s.com/Tutorial/Cpp/CatalogCpp.htm)]
-* 4 [참조: 알고리즘, [sedgewick-cpp](https://github.com/sergey-pashaev/sedgewick-cpp)]
-* 5 [참조: [www.learncpp.com](https://www.learncpp.com)]
-* 6 [참조: [www.geeksforgeeks.org/c-plus-plus/](https://www.geeksforgeeks.org/c-plus-plus/)]
-* 7 [참조: [www.w3schools.com/cpp/](https://www.w3schools.com/cpp/default.asp)]
+## Reference List
+* [참조: [www.cprogramming.com](https://www.cprogramming.com/tutorial/c++-tutorial.html)]
+* [참조: [www.cprogramming.com/snippets](https://www.cprogramming.com/snippets/)]
+* [참조: [www.java2s.com/code/Cpp](http://www.java2s.com/Code/Cpp/)]
+* [참조: [www.java2s.com/ref/cpp/](http://www.java2s.com/ref/cpp/cpp.html)]
+* [참조: [www.java2s.com/Tutorial/Cpp/](http://www.java2s.com/Tutorial/Cpp/CatalogCpp.htm)]
+* [참조: Algorithem, [sedgewick-cpp](https://github.com/sergey-pashaev/sedgewick-cpp)]
+* [참조: [www.learncpp.com](https://www.learncpp.com)]
+* [참조: [www.geeksforgeeks.org/c-plus-plus/](https://www.geeksforgeeks.org/c-plus-plus/)]
+* [참조: [www.w3schools.com/cpp/](https://www.w3schools.com/cpp/default.asp)]
