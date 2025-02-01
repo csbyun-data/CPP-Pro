@@ -42,7 +42,7 @@ Grammar of programming, a collection of basic materials for application.
 * [내적, 차분 배열 algorithm](https://github.com/csbyun-data/CPP-Pro/blob/main/chap05/array/README.md)
 
 ## Project
-* [Book], [Applied C++]()
+* [Book], [Applied C++](https://github.com/csbyun-data/CPP-Pro/blob/main/chap06/Applied_Cpp/README.md)
 
 ## Reference List
 * [참조: [www.cprogramming.com](https://www.cprogramming.com/tutorial/c++-tutorial.html)]
