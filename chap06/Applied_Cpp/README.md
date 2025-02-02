@@ -64,3 +64,5 @@
   
   Bibliography 
   ```
+* Chap7  Testing and Performance
+  * Unit Tests
