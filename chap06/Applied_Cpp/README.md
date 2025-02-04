@@ -65,6 +65,30 @@
   Bibliography 
   ```
 * Chap7  Testing and Performance
-  * Unit Test Framework [unitTest.h](https://github.com/csbyun-data/CPP-Pro/blob/main/chap06/Applied_Cpp/Chap07/unitTest.h), [unitTest.cpp](https://github.com/csbyun-data/CPP-Pro/blob/main/chap06/Applied_Cpp/Chap07/unitTest.cpp)
-  * 
-  * 
+  * Unit Test Framework [unitTest.h](https://github.com/csbyun-data/CPP-Pro/blob/main/chap06/Applied_Cpp/Chap07/unitTest.h), [unitTest.cpp](https://github.com/csbyun-data/CPP-Pro/blob/main/chap06/Applied_Cpp/Chap07/unitTest.cpp)  
+  ```c
+  // macro에서 class 소스를 만들고, 컴파일 후 실행 시 class을 생성자 addTest 매소드를 실행함
+  // in unitTest.h contents
+  #define UTFUNC(utx)                            \
+  class UT##utx : public apUnitTestFunction      \
+  {                                              \
+  UT##utx ();                                    \
+  static UT##utx sInstance;                      \
+  void test ();                                  \
+  };                                             \
+  UT##utx UT##utx::sInstance;                    \
+  UT##utx::UT##utx () : apUnitTestFunction(#utx) \
+  {                                              \
+    apUnitTest::gOnly().addTest(#utx,this);      \
+  }                                              \
+  void UT##utx::test ()
+  
+  #define VERIFY(condition) verify (condition, #condition)
+  #define VERIFYFLOAT(d1,d2) verifyFloat (d1, d2)
+  
+  #endif // _unittest_h_
+  ```
+  ![image](https://github.com/user-attachments/assets/1c8537b1-c0db-4fef-90ba-c137b36c45e2)
+
+  
+
