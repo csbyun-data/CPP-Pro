@@ -90,6 +90,120 @@
   ```
   ![image](https://github.com/user-attachments/assets/1c8537b1-c0db-4fef-90ba-c137b36c45e2)
 
+  * complete apUnitFunction 
+  ```c
+  class apUnitTestFunction
+  {
+  public:
+    apUnitTestFunction (const std::string& name);
+  
+    enum eResult {eNotRun, eRunning, eUnknown, eSuccess, eFailure};
+  
+    const std::string& name         () const { return name_;}
+    eResult            result       () const { return result_;}
+    double             elapsed      () const { return elapsed_;}
+    const std::string& message      () const { return message_;}
+    const std::string& description  () const
+    { return description_;}
+    std::string        resultString () const;
+  
+    void setDescription (const std::string& s) { description_ = s;}
+  
+    void run (bool verbose = false);
+    // Run this unit test. Called by the unit test framework
+  protected:
+    virtual void test() = 0;
+    // All unit tests define this function to perform a single test
+  
+    bool verify (bool state, const std::string& message="");
+    // Fails test if state is false. Used by VERIFY() macro
+  
+    void addMessage (const std::string& message);
+    // Adds the message string to our messages
+  
+    bool         verbose_;     // true for verbose output
+  
+    eResult      result_;      // Result of this unit test
+    std::string  name_;        // Unit test name (must be unique)
+    std::string  description_; // Description of function
+    std::string  message_;     // Message, usual a failure message
+    double       elapsed_;     // Execution time, in seconds
+  };
+  ```
+
+  * implementation of the run() method
+  ```c
+  void apUnitTestFunction::run ()
+  {
+    std::string error;
+  
+    apElapsedTime time;
+    try {
+      test ();
+    }
+    catch (const std::exception& ex) {
+      // We caught an STL exception
+      error = std::string("Exception '") + ex.what() + "' caught";
+      addMessage (error);
+      result_ = eFailure;
+    }
+    catch (...) {
+      // We caught an unknown exception
+      error = "Unknown exception caught";
+      addMessage (error);
+      result_ = eFailure;
+    }
+    elapsed_ = time.sec ();
+  
+    // Make sure the test() function set a result or set eUnknown
+    if (result_ != eSuccess && result_ != eFailure)
+      result_ = eUnknown;
+  }
+  ```
+
+  * unit test framework
+  ```c
+  class apUnitTest
+  {
+  public:
+    static apUnitTest& gOnly ();
+  
+    bool run (bool verbose = false);
+    // Run all the unit tests. Returns true if all tests are ok
+  
+    void dumpResults (std::ostream& out);
+    // Dump results to specified stream
+  
+    int size () const { return static_cast<int>(tests_.size());}
+    const apUnitTestFunction* retrieve (int index) const;
+    // Retrieves the specific test, or NULL if invalid index
+  
+    void addTest (const std::string& name,
+                  apUnitTestFunction* test);
+    // Used by our macro to add another unit test
+  
+  private:
+    apUnitTest ();
+    static apUnitTest* sOnly_;  // Points to our only instance
+  
+    std::vector<apUnitTestFunction*> tests_; // Array of tests
+  };
+  ```
+  ```c
+  bool apUnitTest::run ()
+  {
+    bool state = true;
+  
+    for (unsigned int i=0; i<tests_.size(); i++) {
+      apUnitTestFunction* test = tests_[i];
+      test->run ();
+      if (test->result() != apUnitTestFunction::eSuccess)
+        state = false;
+    }
+    return state;
+  }
+  ```
+  
   * [bstring.h](https://github.com/csbyun-data/CPP-Pro/blob/main/chap06/Applied_Cpp/Chap07/bstring.h), [bstring.cpp](https://github.com/csbyun-data/CPP-Pro/blob/main/chap06/Applied_Cpp/Chap07/bstring.cpp), [geometry.h](https://github.com/csbyun-data/CPP-Pro/blob/main/chap06/Applied_Cpp/Chap07/geometry.h), [geometry.cpp](https://github.com/csbyun-data/CPP-Pro/blob/main/chap06/Applied_Cpp/Chap07/geometry.cpp), [main.cpp](https://github.com/csbyun-data/CPP-Pro/blob/main/chap06/Applied_Cpp/Chap07/main.cpp), [timing.h](https://github.com/csbyun-data/CPP-Pro/blob/main/chap06/Applied_Cpp/Chap07/timing.h), [timing.h](https://github.com/csbyun-data/CPP-Pro/blob/main/chap06/Applied_Cpp/Chap07/timing.cpp)
   
   
