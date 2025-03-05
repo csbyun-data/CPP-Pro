@@ -43,6 +43,7 @@ Grammar of programming, a collection of basic materials for application.
 
 ## Project
 * [Book], [Applied C++](https://github.com/csbyun-data/CPP-Pro/blob/main/chap06/Applied_Cpp/README.md)
+* [Console Game], [Maze]()
 
 ## Reference List
 * [참조: [www.cprogramming.com](https://www.cprogramming.com/tutorial/c++-tutorial.html)]
