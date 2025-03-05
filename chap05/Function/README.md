@@ -1,5 +1,5 @@
 
-## 1. STL 활용 FUNCTION
+## 1. STL 활용 Function
 ### INDEX
 * 1.Function 활용
     * 1.1 double형 배열을 매개변수로 전달받은 template 구현 [code](https://github.com/csbyun-data/CPP-Pro/blob/main/chap05/Function/Template_Arrays1.cpp)
