@@ -10,16 +10,16 @@
 using namespace std;
 
 class Game {
-	private:
-		Avatar *avatar;
-		Map *map;
-		void listenToInputKey();
-		
-	public:
-		Game(Map* map, Avatar* avatar);
-		~Game();
-		void showGuide();
-		void start();
+  private:
+    Avatar *avatar;
+    Map *map;
+    void listenToInputKey();
+    
+  public:
+    Game(Map* map, Avatar* avatar);
+    ~Game();
+    void showGuide();
+    void start();
 };
 
 #endif
