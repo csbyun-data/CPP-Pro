@@ -14,6 +14,20 @@
      // b is left unchanged by read_row, i.e., it is 42
     }
     ```
-    * [sum], [sum.cpp](), [sum.csv]()
+    * [sum], [sum.cpp](https://github.com/csbyun-data/CPP-Pro/blob/main/chap03/CSV/sum.cpp), [sum.csv](https://github.com/csbyun-data/CPP-Pro/blob/main/chap03/CSV/sum.csv)
+    ```
+    // The file only contains the columns "a" and "b"
+    CSVReader<3>in(...);
+    in.read_header(ignore_missing_column, "a", "b", "sum");
+    if(!in.has_column("a") || !in.has_column("b"))
+      throw my_neat_error_class();
+    bool has_sum = in.has_column("sum");
+    int a,b,sum;
+
+    while(in.read_row(a,b,sum)){
+      if(!has_sum)
+        sum = a+b;
+    }
+    ```
     
     
