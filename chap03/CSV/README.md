@@ -1,7 +1,7 @@
 ### CSV
 * Fast C++ CSV Parser [here](https://github.com/ben-strasser/fast-cpp-csv-parser)
     * [File Read], [ram_open.c](https://github.com/csbyun-data/CPP-Pro/blob/main/chap03/CSV/ram_open.c), [ram.csv](https://github.com/csbyun-data/CPP-Pro/blob/main/chap03/CSV/ram.csv)
-    * [ignore_extra_column], [ignore_extra_column.c]()
+    * [ignore_extra_column], [ignore_extra_column.c](https://github.com/csbyun-data/CPP-Pro/blob/main/chap03/CSV/ignore_missing_column.c), [iqnore_extra_column.csv](https://github.com/csbyun-data/CPP-Pro/blob/main/chap03/CSV/ignore_missing_column.csv)
     ```
     // The file only contains column "a"
     CSVReader<2>in(...);
