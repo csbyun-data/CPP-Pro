@@ -44,7 +44,7 @@
 * CSV2
    * [csv2](https://github.com/p-ranav/csv2)
    * [File Read], [test_01.cpp](https://github.com/csbyun-data/CPP-Pro/blob/main/chap03/CSV/csv2_test_01.cpp), [test_01.csv](https://github.com/p-ranav/csv2/blob/master/test/inputs/test_01.csv)
-   * [File Write], [foo.cpp]()
+   * [File Write], [foo.cpp](https://github.com/csbyun-data/CPP-Pro/blob/main/chap03/CSV/csv2_foo.cpp)
    ```
    ```
     
