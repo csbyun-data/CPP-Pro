@@ -1,6 +1,18 @@
 ### CSV
 * Fast C++ CSV Parser [here](https://github.com/ben-strasser/fast-cpp-csv-parser)
     * [File Read], [ram_open.cpp](https://github.com/csbyun-data/CPP-Pro/blob/main/chap03/CSV/ram_open.cpp), [ram.csv](https://github.com/csbyun-data/CPP-Pro/blob/main/chap03/CSV/ram.csv)
+    ```
+    # include "csv.h"
+
+    int main(){
+      io::CSVReader<3> in("ram.csv");
+      in.read_header(io::ignore_extra_column, "vendor", "size", "speed");
+      std::string vendor; int size; double speed;
+      while(in.read_row(vendor, size, speed)){
+        // do stuff with the data
+      }
+    }
+    ```
     * [ignore_extra_column], [ignore_extra_column.cpp](https://github.com/csbyun-data/CPP-Pro/blob/main/chap03/CSV/ignore_missing_column.cpp), [iqnore_extra_column.csv](https://github.com/csbyun-data/CPP-Pro/blob/main/chap03/CSV/ignore_missing_column.csv)
     ```
     ignore_missing_column: If a column with a name is not in the file but is in the argument list,
