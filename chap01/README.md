@@ -76,6 +76,13 @@
    ```cpp
    -- class : object를 만들기 위한 구조체
    -- object : class를 이용하여 만든 instance(메모리에 생성된 객체)
+
+   -- 접근 지정자(Access Specifiers)
+   -- public: 전체 접근가능 , private : class 내부에서만 접근가능, protected: 상속 class에서 접근가능
+
+   -- 생성자, Constructor : object가 생성될때 호출되는 함수(ClassName())
+   -- 소멸자, Destructor : object가 소멸될때 호출되는 함수 (~ClassName())
+   
    /*	Person.h	*/
    // 선언부 Person.h
     
@@ -163,7 +170,7 @@
    ```
  
    * 2.3 생성자 Overriding
-     * 2.3.1 생성자
+     * 2.3.1 생성자(Constructor)
      ```cpp
      class Rectangle {
        private: // 명시하지않으면 기본값은 private입니다.
@@ -196,7 +203,7 @@
      }
      ```
    
-   * 2.4 소멸자
+   * 2.4 소멸자(Destructor)
    ```cpp
    // 객체가 소멸될때 자동으로 실행되는 class의 맴버 함수
    // delete를 이용하여 소멸자를 호출
@@ -248,7 +255,17 @@
    
    * 2.6 Class Chaining
    ```cpp
-   // 클래싕 this 포인터를 응용하면 Number.Add(5).Add(5).Mul(6) 표현이 가능
+   -- this pointer : class 내부에서 object 자신을 가리키는 pointer
+   class Box {
+     int width;
+   public:
+     Box(int width) {
+       this->width = width;
+     }
+   };
+   ```
+   ```cpp
+   // 클래스의 this 포인터를 응용하면 Number.Add(5).Add(5).Mul(6) 표현이 가능
    class Calc {
    private: 
        int m_Value = 0;
