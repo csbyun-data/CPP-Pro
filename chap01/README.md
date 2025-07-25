@@ -146,7 +146,17 @@
   *  1.8 Member변수 초기화 [상수변수 초기화](https://github.com/csbyun-data/CPP-Pro/blob/main/chap01/Variable/Constant_init1.cpp), [참조 초기화](https://github.com/csbyun-data/CPP-Pro/blob/main/chap01/Variable/Reference_init1.cpp), [지역변수 초기화](https://github.com/csbyun-data/CPP-Pro/blob/main/chap01/Variable/Local_init1.cpp)
   ```c
   01) 상수형 member변수 초기화
+  #include <stdio.h>
+  class CBase {
+    const int a;
+    CBase:a(100) {}
+  };
+  void main() {
+    CBase base;
+    printf("%d \n", base.a);
+  }
   02) member reference 초기화
+  
   03) 지역 변수를 이용한 초기화
   ```
   * 1.9 Stream출력 객체 [here](https://github.com/csbyun-data/CPP-Pro/blob/main/chap01/Stream/README.md)
