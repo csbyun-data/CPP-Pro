@@ -12,6 +12,7 @@
   ```txt
   3.Friend Function : class의 외부함수가 private member에 접근이 필요할때,
     operator overloading시, 두 객체의 비공개 member의 접근이 필요할때 사용
+    상속되지 않음, encapsulation 파괴
   class Box {
   private:
     int width;
@@ -23,6 +24,7 @@
   void ShowWidth(Box b) {
     cout << "width: " << b.width << endl;
   }
+  
   -- 연산자 overloading, friend 함수
   class Point {
   private:
