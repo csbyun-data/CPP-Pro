@@ -71,7 +71,7 @@
   * 1.14 Method Chaining [code1](https://github.com/csbyun-data/CPP-Pro/blob/main/chap01/Method_Chaining/method_chain1.cpp)
   * 1.15 this 포인터와 Chaining [[code1](https://github.com/csbyun-data/CPP-Pro/blob/main/chap01/Method_Chaining/method_chain2.cpp), [code2](https://github.com/csbyun-data/CPP-Pro/blob/main/chap01/Method_Chaining/method_chain3.cpp)], [[chain code1](https://github.com/csbyun-data/CPP-Pro/blob/main/chap01/Method_Chaining/chain1_1.cpp), [chain code2](https://github.com/csbyun-data/CPP-Pro/blob/main/chap01/Method_Chaining/chain1_2.cpp) ]
 
-*  2.Class 간략정리 [[here](https://github.com/csbyun-data/CPP-Pro/blob/main/chap01/Class/README.md)]
+*  2.Class 간략정리
    * 2.1 구현부와 선언부
    ```cpp
    -- class : object를 만들기 위한 구조체
