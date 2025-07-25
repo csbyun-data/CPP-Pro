@@ -42,6 +42,14 @@
   ```
   -- Function Overloading
   -- Operator Overloading
+  class Point {
+  public:
+    int x, y;
+    Point(int a, int b) : x(a), y(b) {}
+    Point operator+(const Point& p) {
+      return Point(x+p.x, y+p.y);
+    }
+  };
   -- Virtual Function & Overriding : 상속관계, parent는 virtual key word, child는 override key word
   class Animal {
   public:
@@ -69,7 +77,16 @@
     void draw() override { cout << "Drawing Circle" << endl; }
   };  
   ```
-
+  * 1.7.3 캡술화(Encapsulation)
+  ```
+  class BankAccount {
+  private:
+    double balance;
+  public:
+    void deposit(double amount) { balance += amount; }
+    double getBalance() { return balance; }
+  };
+  ```
   *  1.8 Member변수 초기화 [상수변수 초기화](https://github.com/csbyun-data/CPP-Pro/blob/main/chap01/Variable/Constant_init1.cpp), [참조 초기화](https://github.com/csbyun-data/CPP-Pro/blob/main/chap01/Variable/Reference_init1.cpp), [지역변수 초기화](https://github.com/csbyun-data/CPP-Pro/blob/main/chap01/Variable/Local_init1.cpp)
   ```c
   01) 상수형 member변수 초기화
@@ -80,8 +97,15 @@
   * 1.10 Default Member Function [code](https://github.com/csbyun-data/CPP-Pro/blob/main/chap01/Default_Member_Function.cpp)
   * 1.11 static member variable, function 사용 [code1](https://github.com/csbyun-data/CPP-Pro/blob/main/chap01/Static/Static_Variable1.cpp), [code2](https://github.com/csbyun-data/CPP-Pro/blob/main/chap01/Static/Static_Variable2.cpp), [code3](https://github.com/csbyun-data/CPP-Pro/blob/main/chap01/Static/Static_Function1.cpp)
   ```txt
-   1. static function, non-static function 활용, 초기화
-   2. static, non-static function 사용법
+   1. static variable
+   class Counter {
+   public:
+     static int count;
+     Counter() { count++; }
+   };
+   int Counter::count = 0;
+   2. static function, non-static function 활용, 초기화
+   3. static, non-static function 사용법
   ```
   * 1.12 class, function template 사용법 [code1](https://github.com/csbyun-data/CPP-Pro/blob/main/chap01/Template/Template1.cpp), [code2](https://github.com/csbyun-data/CPP-Pro/blob/main/chap01/Template/Template2.cpp), [code3](https://github.com/csbyun-data/CPP-Pro/blob/main/chap01/Template/Template_MFC.cpp), [code4](https://github.com/csbyun-data/CPP-Pro/blob/main/chap01/Template/Function_Template1.cpp), [code5](https://github.com/csbyun-data/CPP-Pro/blob/main/chap01/Template/Function_Template2.cpp)
   ```txt
