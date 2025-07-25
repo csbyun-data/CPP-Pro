@@ -37,9 +37,39 @@
   B theApp2;
   ```
   *  1.5 Library화 작업2 [lib.h](https://github.com/csbyun-data/CPP-Pro/blob/main/chap01/Library/lib.h), [lib.cpp](https://github.com/csbyun-data/CPP-Pro/blob/main/chap01/Library/lib.cpp), [run.cpp](https://github.com/csbyun-data/CPP-Pro/blob/main/chap01/Library/run.cpp)
-  *  1.6 함수의 재정의 (Overriding) [CPoint.h](https://github.com/csbyun-data/CPP-Pro/blob/main/chap01/Overriding/CPoint.h), [CPoint.cpp](https://github.com/csbyun-data/CPP-Pro/blob/main/chap01/Overriding/CPoint.cpp), [CCircle.h](https://github.com/csbyun-data/CPP-Pro/blob/main/chap01/Overriding/CCircle.h), [CCircle.cpp](https://github.com/csbyun-data/CPP-Pro/blob/main/chap01/Overriding/CCircle.cpp), [CEllipse.h](https://github.com/csbyun-data/CPP-Pro/blob/main/chap01/Overriding/CEllipse.h), [CEllipse.cpp](https://github.com/csbyun-data/CPP-Pro/blob/main/chap01/Overriding/CEllipse.cpp), [main.cpp](https://github.com/csbyun-data/CPP-Pro/blob/main/chap01/Overriding/main.cpp)
-  *  ![image](https://github.com/user-attachments/assets/7b1ccab7-cf65-4593-aa81-db07098402db)
-  *  1.7 상속(inheritance), Reuse [here](https://github.com/csbyun-data/CPP-Pro/blob/main/chap01/Inheritance/README.md)
+  *  1.6 상속(inheritance), Reuse [here](https://github.com/csbyun-data/CPP-Pro/blob/main/chap01/Inheritance/README.md)
+  *  1.7 다형성(Polymorphism)  
+  ```
+  -- Function Overloading
+  -- Operator Overloading
+  -- Virtual Function & Overriding : 상속관계, parent는 virtual key word, child는 override key word
+  class Animal {
+  public:
+    virtial void sound() { cout << "Some sound" << endl; }
+  };
+  
+  class Dog : public Animal {
+  public:
+    void sound() overried { cout << "Bark" << endl; }
+  };
+  ```
+    * 1.7.1 함수의 재정의 (Overriding) [CPoint.h](https://github.com/csbyun-data/CPP-Pro/blob/main/chap01/Overriding/CPoint.h), [CPoint.cpp](https://github.com/csbyun-data/CPP-Pro/blob/main/chap01/Overriding/CPoint.cpp), [CCircle.h](https://github.com/csbyun-data/CPP-Pro/blob/main/chap01/Overriding/CCircle.h), [CCircle.cpp](https://github.com/csbyun-data/CPP-Pro/blob/main/chap01/Overriding/CCircle.cpp), [CEllipse.h](https://github.com/csbyun-data/CPP-Pro/blob/main/chap01/Overriding/CEllipse.h), [CEllipse.cpp](https://github.com/csbyun-data/CPP-Pro/blob/main/chap01/Overriding/CEllipse.cpp), [main.cpp](https://github.com/csbyun-data/CPP-Pro/blob/main/chap01/Overriding/main.cpp)  
+  ![image](https://github.com/user-attachments/assets/7b1ccab7-cf65-4593-aa81-db07098402db)
+  * 1.7.2 추상 클래스(Abstract Class) & 순수 가상 함수
+  ```
+  -- 추상 class는 instance를 만들수 없음
+  -- 순수 가상함수 :=0으로 선언된 가상 함수
+  class Shape {
+  public:
+    virtual void draw() = 0;
+  };
+
+  class Circle : public Shape {
+  public:
+    void draw() override { cout << "Drawing Circle" << endl; }
+  };  
+  ```
+
   *  1.8 Member변수 초기화 [상수변수 초기화](https://github.com/csbyun-data/CPP-Pro/blob/main/chap01/Variable/Constant_init1.cpp), [참조 초기화](https://github.com/csbyun-data/CPP-Pro/blob/main/chap01/Variable/Reference_init1.cpp), [지역변수 초기화](https://github.com/csbyun-data/CPP-Pro/blob/main/chap01/Variable/Local_init1.cpp)
   ```c
   01) 상수형 member변수 초기화
