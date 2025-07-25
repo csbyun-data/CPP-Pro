@@ -143,7 +143,29 @@
     double getBalance() { return balance; }
   };
   ```
-  *  1.8 Member변수 초기화 
+  *  1.8 Member변수 초기화
+  ```C
+  #include <iostream>
+  #include <string>
+
+  class Person {
+  private:
+    string name;
+    int age;
+  public:
+    Person(string n, int a) : name(n), age(a) {}
+    void show() {
+      cout << "name: " << name << ", age " << age << endl;
+    }
+  };
+
+  int main() {
+    Person p("홍길동", 30);
+    p.show();
+  
+    return 0;
+  } 
+  ```
   ```c
   1. 상수형 member변수 초기화
   #include <stdio.h>
@@ -155,6 +177,13 @@
     CBase base;
     printf("%d \n", base.a);
   }
+
+  class MyClass {
+  private:
+    const int id;
+  public:
+    MyClass(int i):id(i) {}
+  };
   ```
   ```C  
   2. member reference 초기화
