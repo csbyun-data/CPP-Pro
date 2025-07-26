@@ -2,7 +2,8 @@
 Grammar of programming, a collection of basic materials for application.
 ## Index
 ## Systax
-* [문법](https://github.com/csbyun-data/CPP-Pro/blob/main/chap01/README.md) 
+* [문법](https://github.com/csbyun-data/CPP-Pro/blob/main/chap01/README.md)
+* [Member변수 초기화]() 
 * [배열 평균, 합, MAX, MIN](https://github.com/csbyun-data/CPP-Pro/blob/main/chap01/Array/README.md)
 * [함수](https://github.com/csbyun-data/CPP-Pro/blob/main/chap01/Function/README.md)
 * [얕은 복사와 깊은 복사](https://github.com/csbyun-data/CPP-Pro/blob/main/chap01/Copy/README.md)
