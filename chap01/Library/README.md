@@ -59,7 +59,7 @@
   // Hello, World!
   ```
   * Virtual function 사용  
-  ![image](https://github.com/user-attachments/assets/37c01e40-3873-428e-b958-4febb8c4947c)
+  ![image](https://github.com/user-attachments/assets/333438ed-fb44-4741-b5be-80c06a762853)
   ```
   // Vrutual function 사용
   
@@ -83,7 +83,8 @@
   {
     A theApp;
   }
-  ```
+  ```  
+  ![image](https://github.com/user-attachments/assets/37c01e40-3873-428e-b958-4febb8c4947c)
   ```
   class A {
   protected:
