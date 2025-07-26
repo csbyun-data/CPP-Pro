@@ -5,7 +5,7 @@ Grammar of programming, a collection of basic materials for application.
 * [문법](https://github.com/csbyun-data/CPP-Pro/blob/main/chap01/README.md) 
 * 배열
 * 함수
-* 얕은 복사와 깊은 복사, 정리 예정
+* [얕은 복사와 깊은 복사](https://github.com/csbyun-data/CPP-Pro/blob/main/chap01/Copy/README.md)
 * In Line. Out Line Function
 * Library화 작업
 * 함수의 재정의 (Overriding)
