@@ -39,7 +39,7 @@
   } 
   ```
   ```
-  //2.1 setter()이용
+  //1.3 setter()이용
   class Person {
   private:
     int age;
@@ -57,6 +57,17 @@
     p.setAge(25);  // OK
     //p.age = 30;  // Error!, private 접근 불가
     cout << p.getAge() << "\n";
+  }
+  ```
+  ```
+  //1.4 friend함수, class로 접근 허용
+  class Person {
+  private:
+    int age;
+    friend void changeAge(Person&, int);
+  };
+  void changeAge(Person& p, int newAge) {
+    p.age = newAge;  //friend함수는 private 접근 가능
   }
   ```
   * 2.상수형 member 변수 초기화  
