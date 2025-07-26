@@ -1,5 +1,5 @@
-### Member변수
-* Member변수 초기화
+### Member 변수
+* Member 변수 초기화
   ```C
   #include <iostream>
   #include <string>
