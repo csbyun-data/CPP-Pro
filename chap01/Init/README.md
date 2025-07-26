@@ -1,5 +1,3 @@
-## C++ Programming language code
-
 ### Member변수
 * Member변수 초기화
   ```C
