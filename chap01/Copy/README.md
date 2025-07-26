@@ -7,6 +7,14 @@
       다른 객체는 Dangling pointer 오류 발생)
   ```
   * 앝은 복사 문제발생 예제 [code](https://github.com/csbyun-data/CPP-Pro/blob/main/chap01/Copy/shallow_copy_err01.cpp)
+  * 복사 생성자, 대입 연산자 overloading
+  ```
+  //복사 생성자 Person(const Person& other)
+  Person p2 = p1;
+  //대입 연산자 Person& operator=(const Person& other)
+  p2 = p1;
+  ```
+    * 구현 예제[code]()
 * 깊은 복사(Deep Copy)
   * Deep Copy Example [code](https://github.com/csbyun-data/CPP-Pro/blob/main/chap01/Copy/deep_copy_ex01.cpp)
   ```
