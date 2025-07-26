@@ -1,3 +1,4 @@
+// 복사 생성자, 대입 연산자 overloading 구현
 class Person {
 private:
   char* name;
