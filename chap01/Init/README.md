@@ -1,9 +1,25 @@
 ### Member 변수
-* Member 변수 초기화
+* 1.Member private 변수 초기화 방법
+  ```
+  1. 생성자 이용 초기화
+  2. setter 함수
+  3. friend 함수
+  4. 대입 연산자를 사용
+  ```
   ```C
+  // 1.1 생성자 이용 초기화
+  class Person {
+  private:
+    int age;
+  public:
+    Person(int a) : age(a) {}
+  };
+  
+  // 1.2 member initializer lists
   #include <iostream>
   #include <string>
-
+  namespace std;
+  
   class Person {
   private:
     string name;
@@ -21,8 +37,29 @@
   
     return 0;
   } 
-  ```  
-  * 1.상수형 member 변수 초기화  
+  ```
+  ```
+  //2.1 setter()이용
+  class Person {
+  private:
+    int age;
+  public:
+    void setAge(int a) {
+      age = a;
+    }
+    int getAge() const {
+      return age;
+    }
+  };
+
+  int main() {
+    Person p;
+    p.setAge(25);  // OK
+    //p.age = 30;  // Error!, private 접근 불가
+    cout << p.getAge() << "\n";
+  }
+  ```
+  * 2.상수형 member 변수 초기화  
   ```c
 
   #include <stdio.h>
@@ -42,7 +79,7 @@
     MyClass(int i):id(i) {}
   };
   ```
-  * 2.member reference 초기화
+  * 3.member reference 초기화
   ```C  
   #include <stdio.h>
   int m_iX = 0; //전역 변수
@@ -57,7 +94,7 @@
     printf("%d \n", base.a);
   }
   ```
-  * 3.지역 변수를 이용한 초기화
+  * 4.지역 변수를 이용한 초기화
   ```C  
   #include <stdio.h>
 
