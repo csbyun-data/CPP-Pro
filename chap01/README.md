@@ -3,43 +3,6 @@
 ### Index
 * 1.문법
   *  1.1 배열 평균, 합, Max, Min [here](https://github.com/csbyun-data/CPP-Pro/blob/main/chap01/Array/Calculates_Array1.cpp)
-  *  1.1 함수 [here](https://github.com/csbyun-data/CPP-Pro/blob/main/chap01/Function/README.md)
-  ```txt
-  1.Functions call
-  1.1 Pass by reference( Call by Reference)
-  2.Functions return
-  ```
-  ```txt
-  3.Friend Function : class의 외부함수가 private member에 접근이 필요할때,
-    operator overloading시, 두 객체의 비공개 member의 접근이 필요할때 사용
-    상속되지 않음, encapsulation 파괴
-  class Box {
-  private:
-    int width;
-  public:
-    Box(int w) : width(w) {}
-    friend void showWidth(Box b);
-  }
-
-  void ShowWidth(Box b) {
-    cout << "width: " << b.width << endl;
-  }
-  
-  -- 연산자 overloading, friend 함수
-  class Point {
-  private:
-    int x, y;
-  public:
-    Point(int a, int b) : x(a), y(b) {}
-    frined Point operator+(Point a, Point b);
-  };
-  Point operator+(Point a, Point b) {
-    return Point(a.x + b.x, a.y + b.y);
-  }
-  ``` 
-  ```txt  
-  4.Member function을 연산자 <<로 사용
-  ```
   *  1.8 Member변수 초기화
   ```C
   #include <iostream>
