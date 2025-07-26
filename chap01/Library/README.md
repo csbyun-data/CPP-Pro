@@ -129,7 +129,8 @@
     virtual void WhoAraYou() {
       printf("CBase!\n");
   };
-
+  ```
+  ```
   //lib.cpp
   #include "lib.h"
   extern CBase theApp;
@@ -144,7 +145,8 @@
     p = AfxGetApp();
     p->WhoAreYou();
   }
-
+  ```
+  ```
   //run.cpp
   #include "lib.h"
 
