@@ -58,7 +58,8 @@
   
   // Hello, World!
   ```
-  * Virtual function 사용
+  * Virtual function 사용  
+  ![image](https://github.com/user-attachments/assets/37c01e40-3873-428e-b958-4febb8c4947c)
   ```
   // Vrutual function 사용
   
