@@ -40,7 +40,6 @@
   ```txt  
   4.Member function을 연산자 <<로 사용
   ```
-  *  1.2 얕은 복사와 깊은 복사, 정리 예정
   *  1.3 In Line. Out Line Function [Out Line [CPoint.h](https://github.com/csbyun-data/CPP-Pro/blob/main/chap01/Line_Function/CPoint.h), [CPoint.cpp](https://github.com/csbyun-data/CPP-Pro/blob/main/chap01/Line_Function/CPoint.cpp), [main.cpp](https://github.com/csbyun-data/CPP-Pro/blob/main/chap01/Line_Function/main.cpp)]
   ```txt
   1. In Line Function : head, function, main을 한개의 파일로 작성
