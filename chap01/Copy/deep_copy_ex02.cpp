@@ -34,3 +34,11 @@ public:
 };
 
 int main() {
+  Person p1("Alice");
+  Person p2 = p1;  //복사 생성자 호출
+
+  Person p3("Charlie");
+  p3 = p1; //대입 연산자 호출
+
+  return 0;
+}
