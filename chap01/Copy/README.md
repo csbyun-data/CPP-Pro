@@ -68,4 +68,30 @@
   //대입 연산자 Person& operator=(const Person& other)
   p2 = p1;
   ```
-    * 구현 예제 [code](https://github.com/csbyun-data/CPP-Pro/blob/main/chap01/Copy/deep_copy_ex02.cpp)  
+    * 구현 예제 [code](https://github.com/csbyun-data/CPP-Pro/blob/main/chap01/Copy/deep_copy_ex02.cpp)
+    * char *,  std::string 사용 예제
+    ```
+    // char *
+    class Person {
+      char* name;
+    public:
+      Person(const char* n) {
+        name = new char[strlen(n)+1];
+        strcpy(name, n);
+      }
+      ~Person() {
+        delete[] name;
+      }
+      // 복사 생성자/대입 연산자 직접 구현 안 하면 얕은 복사 문제 발생
+    }
+
+    // std::string 사용
+    #include <string>
+    class Person {
+      std::string name;
+    public:
+      Person(const std::string& n) : name(n) {}
+      // 복사 생성자/대입 연산자 구현 안 해도 됨!
+      // 깊은 복사, 메모리 관리 모두 자동
+    };
+    ```
