@@ -1,5 +1,4 @@
-## 1.Functions
-### Index
+### Functions
 * 1.Functions call [[call by value](https://github.com/csbyun-data/CPP-Pro/blob/main/chap01/Function/Call_by_value1.cpp), [call by address](https://github.com/csbyun-data/CPP-Pro/blob/main/chap01/Function/Call_by_address1.cpp), [call by reference1](https://github.com/csbyun-data/CPP-Pro/blob/main/chap01/Function/Call_by_reference1.cpp)]
     ```cpp
     1. call by value
