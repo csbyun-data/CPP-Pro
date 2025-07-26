@@ -22,7 +22,7 @@
     return 0;
   } 
   ```  
-  * 1.상수형 member변수 초기화  
+  * 1.상수형 member 변수 초기화  
   ```c
 
   #include <stdio.h>
