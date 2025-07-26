@@ -1,5 +1,5 @@
 ### Library화 작업
-* Library화 작업
+* Library화 작업 1
   * 1.Virtual Function code [code1](https://github.com/csbyun-data/CPP-Pro/blob/main/chap01/Library/CBase1.cpp), [code2](https://github.com/csbyun-data/CPP-Pro/blob/main/chap01/Library/CBase_Override1.cpp), [code3](https://github.com/csbyun-data/CPP-Pro/blob/main/chap01/Library/CBase2.cpp), [code4](https://github.com/csbyun-data/CPP-Pro/blob/main/chap01/Library/CBase3.cpp)  
   ```
   // 1. Virtual Function code
@@ -118,5 +118,16 @@
     A theApp;
     B theApp2;
   }
+  ```
+* Library화 작업 2 
+  * lib [lib.h](https://github.com/csbyun-data/CPP-Pro/blob/main/chap01/Library/lib.h), [lib.cpp](https://github.com/csbyun-data/CPP-Pro/blob/main/chap01/Library/lib.cpp), [run.cpp](https://github.com/csbyun-data/CPP-Pro/blob/main/chap01/Library/run.cpp)  
+  ```
+  //lib.h
+  #include <stdio.h>
+  class CBase {
+  public:
+    virtual void WhoAraYou() {
+      printf("CBase!\n");
+  };
   ```
   
