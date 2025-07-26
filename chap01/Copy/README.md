@@ -6,7 +6,7 @@
      (두개의 object가 한개의 메모리 공유, 한 객체가 메모리 해제시,
       다른 객체는 Dangling pointer 오류 발생)
   ```
-  * 앝은 복사 문제발생 예제 [code]()
+  * 앝은 복사 문제발생 예제 [code](https://github.com/csbyun-data/CPP-Pro/blob/main/chap01/Copy/shallow_copy_err01.cpp)
 * 깊은 복사(Deep Copy)
   * Deep Copy Example [code](https://github.com/csbyun-data/CPP-Pro/blob/main/chap01/Copy/deep_copy_ex01.cpp)
   ```
