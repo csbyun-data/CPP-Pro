@@ -1,5 +1,5 @@
 ### In Line, Out Line Function
-* 1 In Line [code]()
+* 1 In Line [code](https://github.com/csbyun-data/CPP-Pro/blob/main/chap01/Line_Function/In_Line_Function.cpp)
   ```txt
   1. In Line Function : head, function, main을 한개의 파일로 작성
   // In_Line_Function.cpp
