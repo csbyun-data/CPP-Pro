@@ -1,5 +1,5 @@
-### In Line. Out Line Function
-* 1 In Line. Out Line Function [Out Line [CPoint.h](https://github.com/csbyun-data/CPP-Pro/blob/main/chap01/Line_Function/CPoint.h), [CPoint.cpp](https://github.com/csbyun-data/CPP-Pro/blob/main/chap01/Line_Function/CPoint.cpp), [main.cpp](https://github.com/csbyun-data/CPP-Pro/blob/main/chap01/Line_Function/main.cpp)]
+### In Line, Out Line Function
+* 1 In Line [code]()
   ```txt
   1. In Line Function : head, function, main을 한개의 파일로 작성
   // In_Line_Function.cpp
@@ -31,3 +31,4 @@
   ```txt
   2. Out Line Function : 파일을 head, function , driver부로 분리해서 작성
   ```
+  1 In Line. Out Line Function [Out Line [CPoint.h](https://github.com/csbyun-data/CPP-Pro/blob/main/chap01/Line_Function/CPoint.h), [CPoint.cpp](https://github.com/csbyun-data/CPP-Pro/blob/main/chap01/Line_Function/CPoint.cpp), [main.cpp](https://github.com/csbyun-data/CPP-Pro/blob/main/chap01/Line_Function/main.cpp)]
