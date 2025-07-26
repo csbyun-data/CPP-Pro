@@ -2,7 +2,6 @@
 
 ### Index
 * 1.문법
-  *  1.1 배열 평균, 합, Max, Min [here](https://github.com/csbyun-data/CPP-Pro/blob/main/chap01/Array/Calculates_Array1.cpp)
   *  1.8 Member변수 초기화
   ```C
   #include <iostream>
