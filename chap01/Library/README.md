@@ -27,5 +27,98 @@
   
   // CBase
   ```
+  * Virtual Function -> Override
+  ```
+  // 2. Virtual Function -> Override
+
+  #include <stdio.h>
+  
+  class CBase {
+    virtual void WhoAreYou() {
+      printf("CBase\n");
+    }
+  };
+  
+  class CDerived: public CBase {
+    void WhoAreYou() {
+      printf("Hello, World!\n");
+    }
+  };
+  
+  CDerived theApp;
+  CBase* AfxGetApp()
+  { return *theApp; }
+  
+  void main()
+  {
+    CBase* p;
+    p = AfxGetApp();
+    p->WhoAreYou();
+  }
+  
+  // Hello, World!
+  ```
+  * Virtual function 사용
+  ```
+  // Vrutual function 사용
+  
+  class A {
+  protected:
+    int m_ix;
+    int m_iy;
+  public:
+    virtual void Set(int a, int b) {
+      m_ix = a;
+      m_iy = b;
+    }
+
+    virtual void Move(int a, int b) {
+      m_ix += a;
+      m_iy += b;
+    }
+  };
+  
+  void main()
+  {
+    A theApp;
+  }
+  ```
+  ```
+  class A
+  {
+  protected:
+    int m_ix;
+    int m_iy;
+  public:
+    virtual void Set(int a, int b) {
+      m_ix = a;
+      m_iy = b;
+    }
+    virtual void Move(int a, int b) {
+      m_ix += a;
+      m_iy += b;
+    }
+  };
+  
+  class B: publuc A
+  {
+  public:
+    void Move(int a, int b) {
+      m_ix += a*2;
+      m_iy += b*2;
+    }
+    void Reset() {
+      m_ix = 0;
+      m_iy = 0;
+    }
+  };
+  
+  void main()
+  {
+    A theApp;
+    B theApp2;
+  }
+```
+
   
   *  1.4 Library화 작업 [code1](https://github.com/csbyun-data/CPP-Pro/blob/main/chap01/Library/CBase1.cpp), [code2](https://github.com/csbyun-data/CPP-Pro/blob/main/chap01/Library/CBase_Override1.cpp), [code3](https://github.com/csbyun-data/CPP-Pro/blob/main/chap01/Library/CBase2.cpp), [code4](https://github.com/csbyun-data/CPP-Pro/blob/main/chap01/Library/CBase3.cpp)  
