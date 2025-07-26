@@ -40,7 +40,6 @@
   ```txt  
   4.Member function을 연산자 <<로 사용
   ```
-  *  1.5 Library화 작업2 [lib.h](https://github.com/csbyun-data/CPP-Pro/blob/main/chap01/Library/lib.h), [lib.cpp](https://github.com/csbyun-data/CPP-Pro/blob/main/chap01/Library/lib.cpp), [run.cpp](https://github.com/csbyun-data/CPP-Pro/blob/main/chap01/Library/run.cpp)
   *  1.6 상속(inheritance), Reuse [here](https://github.com/csbyun-data/CPP-Pro/blob/main/chap01/Inheritance/README.md)
   *  1.7 다형성(Polymorphism)  
   ```
