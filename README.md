@@ -8,6 +8,7 @@ Grammar of programming, a collection of basic materials for application.
 * [얕은 복사와 깊은 복사](https://github.com/csbyun-data/CPP-Pro/blob/main/chap01/Copy/README.md)
 * [In Line, Out Line Function](https://github.com/csbyun-data/CPP-Pro/blob/main/chap01/Line_Function/README.md)
 * [Library화 작업](https://github.com/csbyun-data/CPP-Pro/blob/main/chap01/Library/README.md)
+* [상속(inheritance)](https://github.com/csbyun-data/CPP-Pro/blob/main/chap01/Inheritance/README.md)
 * 함수의 재정의 (Overriding)
 * [Class 간략정리](https://github.com/csbyun-data/CPP-Pro/blob/main/chap01/Class/README.md)
   
