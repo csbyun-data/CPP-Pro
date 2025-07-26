@@ -3,7 +3,7 @@ Grammar of programming, a collection of basic materials for application.
 ## Index
 ## Systax
 * [문법](https://github.com/csbyun-data/CPP-Pro/blob/main/chap01/README.md) 
-* 배열
+* [배열 평균, 합, MAX, MIN]()
 * [함수](https://github.com/csbyun-data/CPP-Pro/blob/main/chap01/Function/README.md)
 * [얕은 복사와 깊은 복사](https://github.com/csbyun-data/CPP-Pro/blob/main/chap01/Copy/README.md)
 * [In Line, Out Line Function](https://github.com/csbyun-data/CPP-Pro/blob/main/chap01/Line_Function/README.md)
