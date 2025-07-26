@@ -70,6 +70,20 @@
     p.age = newAge;  //friend함수는 private 접근 가능
   }
   ```
+  ```
+  //1.5 생성자, 대입 연산자에서 내부 대입
+  class Person {
+  private:
+    int age;
+  public:
+    Person() : age(0) {}
+    Person& operator=(int newAge) {
+      age = newAge;
+      return *this;
+    }
+  };
+  ```
+  
   * 2.상수형 member 변수 초기화  
   ```c
 
