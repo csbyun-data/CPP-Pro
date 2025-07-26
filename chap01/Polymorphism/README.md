@@ -1,5 +1,6 @@
 ### Polymorphism
-* 1.다형성(Polymorphism)  
+* 1.다형성(Polymorphism)
+  * Overloading
   ```
   -- Function Overloading
   -- Operator Overloading
@@ -11,6 +12,9 @@
       return Point(x+p.x, y+p.y);
     }
   };
+  ```
+  * Virtual Function & Overriding
+  ```
   -- Virtual Function & Overriding : 상속관계, parent는 virtual key word, child는 override key word
   class Animal {
   public:
