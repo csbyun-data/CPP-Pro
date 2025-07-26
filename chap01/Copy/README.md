@@ -8,7 +8,7 @@
   ```
 
 * 깊은 복사(Deep Copy)
-  * Deep Copy Example
+  * Deep Copy Example [code](https://github.com/csbyun-data/CPP-Pro/blob/main/chap01/Copy/deep_copy_ex01.cpp)
   ```
   #include <iostream>
   #include <cstring>
