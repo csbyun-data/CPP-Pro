@@ -17,7 +17,7 @@
   ```
   <img width="346" height="101" alt="image" src="https://github.com/user-attachments/assets/77c66dd1-3057-4188-b561-3b87055494bf" />
   
-  *  define reference [code]()
+  *  define reference [code](https://github.com/csbyun-data/CPP-Pro/blob/main/chap01/Ref/ref_arr.c)
   ```cpp
   int main(void) {
     int arr[3]={ 1, 3, 5};
