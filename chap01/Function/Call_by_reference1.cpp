@@ -1,8 +1,7 @@
-
+// call by reference
 #include <iostream>
 
-void swap(int& x, int& y)
-{
+void swap(int& x, int& y) {
   int itemp;
   itemp = x;
   x = y;
