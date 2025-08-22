@@ -66,6 +66,14 @@
       foo(x);
     }
   05) 포인터 참조(References to pointers)
+    // pass pointer by reference
+    void foo(int*& ptr) {}
+    
+    int main() {
+      int x = 5;
+      int *ptr = &x;
+      foo(ptr);
+    }
   ```
   * 1.2 define a default value
   ```
