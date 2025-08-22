@@ -37,6 +37,18 @@
   ```txt
   01) 함수에 배열 전달(Passing arrays to function)
     배열의 이름은 배열의 address를 가르킨다.
+    void prt_array(int numbers[], int size);
+    void zero_alloc(int numbers[], int size);
+
+    int main() {
+       int my_numbers[] = {1, 2, 3, 4, 5};
+       prt_array(my_numbers, 5);
+       zero_alloc(my_numbers, 5);
+     
+       return 0;
+    }
+  ```
+  ```
   02) Pass by reference( Call by reference), 참조자 전달
   03) Constant variable을 참조전달 error확인
     [Error] invalid initialization of reference of type 'int&' from expression of type 'const int'
