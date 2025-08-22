@@ -1,4 +1,4 @@
-// Call by address
+// Call by address, call by pointer
 #include <iostream>
 
 void swap(int* x, int* y) //주소를 넘겨받아 처리함
