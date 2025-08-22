@@ -55,9 +55,16 @@
   03) Constant variable을 참조전달 error확인
     [Error] invalid initialization of reference of type 'int&' from expression of type 'const int'
     [Note] in passing argument 1 of 'void foo(int&)'
+  
   04) const 참조는 변수가 참조를 통해 변경되는 것을 허용하지 않는 참조, 변경하면 컴파일 Error발생
     [Error] assignment of read-only reference 'a'
     const 매개 변수를 사용하면 non-const 및 const 인수를 함수에 전달가능
+  
+    void foo(const int& a);
+    int main() {
+      const int x = 1;  //non-const variable 도 전달 가능, int x = 1;
+      foo(x);
+    }
   05) 포인터 참조(References to pointers)
   ```
   * 1.2 define a default value
