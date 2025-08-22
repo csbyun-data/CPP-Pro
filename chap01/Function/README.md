@@ -2,7 +2,14 @@
 * 1.Functions call [[call by value](https://github.com/csbyun-data/CPP-Pro/blob/main/chap01/Function/Call_by_value1.cpp), [call by address](https://github.com/csbyun-data/CPP-Pro/blob/main/chap01/Function/Call_by_address1.cpp), [call by reference1](https://github.com/csbyun-data/CPP-Pro/blob/main/chap01/Function/Call_by_reference1.cpp)]
   ```cpp
   1. call by value
-  2. call by address
+  2. call by address, call by pointer
+   void swap(int *x, int *y) {};
+   void main() {
+     int ix = 2;
+     int iy = 3;
+     swap(&ix, &iy);
+   }
+  
   3. call by reference
   // Reference Variable 처리
   int a;
