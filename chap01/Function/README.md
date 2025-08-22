@@ -47,6 +47,13 @@
 
   ```
   02) Pass by reference( Call by reference), 참조자 전달
+    void swap(int& a, int& b);
+    
+    int main() {
+      int x = 1, y = 2;
+      swap(x, y);
+    }  
+  
   03) Constant variable을 참조전달 error확인
     [Error] invalid initialization of reference of type 'int&' from expression of type 'const int'
     [Note] in passing argument 1 of 'void foo(int&)'
