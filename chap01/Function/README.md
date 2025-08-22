@@ -8,7 +8,7 @@
     swap( x, y);
   }
   ```
-  ```
+  ```cpp
   2. call by address, call by pointer
    void swap(int *x, int *y) {};
    void main() {
@@ -17,7 +17,7 @@
      swap(&ix, &iy);
    }
   ```
-  ```
+  ```cpp
   3. call by reference
   // Reference Variable 처리
   int a;
