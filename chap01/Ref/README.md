@@ -1,6 +1,7 @@
 ### Reference 
-* Reference Variable
-  ```
+* Reference
+  *  Variable [code]
+  ```cpp
   // 윤성우의 C++ Chap 2-3
   int main(void) {
     int num1 = 100;
@@ -16,4 +17,7 @@
   ```
   <img width="346" height="101" alt="image" src="https://github.com/user-attachments/assets/77c66dd1-3057-4188-b561-3b87055494bf" />
   
-  * 
+  *  define reference
+  ```cpp
+  ```
+  
