@@ -2,10 +2,10 @@
 * 1.Functions call [[call by value](https://github.com/csbyun-data/CPP-Pro/blob/main/chap01/Function/Call_by_value1.cpp), [call by address](https://github.com/csbyun-data/CPP-Pro/blob/main/chap01/Function/Call_by_address1.cpp), [call by reference1](https://github.com/csbyun-data/CPP-Pro/blob/main/chap01/Function/Call_by_reference1.cpp)]
   ```cpp
   1. call by value
-  void func( int n) {}
+  void swap(int x, int y) {}
   int main(void) {
-    int m;
-    func(m);
+    int x, y;
+    swap( x, y);
   }
   ```
   ```
