@@ -17,7 +17,7 @@
   ```
   <img width="346" height="101" alt="image" src="https://github.com/user-attachments/assets/77c66dd1-3057-4188-b561-3b87055494bf" />
   
-  *  define reference [code](https://github.com/csbyun-data/CPP-Pro/blob/main/chap01/Ref/ref_arr.c)
+  *  declare reference [code](https://github.com/csbyun-data/CPP-Pro/blob/main/chap01/Ref/ref_arr.c)
   ```cpp
   int main(void) {
     int arr[3]={ 1, 3, 5};
@@ -33,4 +33,23 @@
   }
   ```
   <img width="347" height="86" alt="image" src="https://github.com/user-attachments/assets/9cad92e3-8eea-4c20-8ddb-664f40fff9bb" />
+  * declare pointer variable reference
+  ```
+  int main(void) {
+    int num=12;
+    int *ptr=&num;
+    int **dptr=&ptr;
+
+    int &ref=num;
+    int *(&pref)=ptr;
+    int **(&dpref)=dptr;
+
+    cout << ref << endl;
+    cout << *pref << endl;
+    cout << **dpref << endl;
+
+    return 0;
+  }
+  ```
+  ```
 
