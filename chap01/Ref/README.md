@@ -1,6 +1,6 @@
 ### Reference 
 * Reference
-  *  Variable [code]
+  *  Variable [code](https://github.com/csbyun-data/CPP-Pro/blob/main/chap01/Ref/ref_var.c)
   ```cpp
   // 윤성우의 C++ Chap 2-3
   int main(void) {
