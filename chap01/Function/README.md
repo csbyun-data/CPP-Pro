@@ -37,7 +37,7 @@
   ```txt
   01) 함수에 배열 전달(Passing arrays to function)
     배열의 이름은 배열의 address를 가르킨다.
-    void prt_array(int numbers[], int size);
+    void prt_array(int (&numbers)[5], int size);
     int main() {
        int my_numbers[] = {1, 2, 3, 4, 5};
        prt_array(my_numbers, 5);
