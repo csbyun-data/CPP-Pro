@@ -32,4 +32,5 @@
     return 0;
   }
   ```
-  
+  <img width="347" height="86" alt="image" src="https://github.com/user-attachments/assets/9cad92e3-8eea-4c20-8ddb-664f40fff9bb" />
+
