@@ -48,6 +48,8 @@
        return 0;
     }
   ```
+  <img width="645" height="414" alt="image" src="https://github.com/user-attachments/assets/ad484766-9c17-43d3-b439-dc560d55c687" />
+
   ```
   02) Pass by reference( Call by reference), 참조자 전달
   03) Constant variable을 참조전달 error확인
