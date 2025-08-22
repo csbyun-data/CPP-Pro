@@ -31,6 +31,21 @@
     const 매개 변수를 사용하면 non-const 및 const 인수를 함수에 전달가능
   05) 포인터 참조(References to pointers)
   ```
+  * 1.2 define a default value
+  ```
+  #include <iostream>
+  int Adder( int num1=1, int num2=2);
+  int main(void) {
+    std::cout << Adder() << std::endl;
+    std::cout << Adder(5) << std::endl;
+    std::cout << Adder(3, 5) << std::endl;
+
+    return 0;
+  }
+  int Adder( int num1, int num2) {
+    return num1+num2;
+  }
+  ```
 * 2.Functions return
   * 2.1 함수에서 Local Variable 반환 [문제있는 [code](https://github.com/csbyun-data/CPP-Pro/blob/main/chap01/Function/Return_Local_Variable1.cppp)],[동적배열 반환[code1](https://github.com/csbyun-data/CPP-Pro/blob/main/chap01/Function/Return_Dynamic_Array2.cpp)], [정적변수 반환[code2](https://github.com/csbyun-data/CPP-Pro/blob/main/chap01/Function/Return_Static_Variable1.cpp)]
   
