@@ -38,14 +38,9 @@
   01) 함수에 배열 전달(Passing arrays to function)
     배열의 이름은 배열의 address를 가르킨다.
     void prt_array(int numbers[], int size);
-    void zero_alloc(int numbers[], int size);
-
     int main() {
        int my_numbers[] = {1, 2, 3, 4, 5};
        prt_array(my_numbers, 5);
-       zero_alloc(my_numbers, 5);
-     
-       return 0;
     }
   ```
   <img width="645" height="414" alt="image" src="https://github.com/user-attachments/assets/ad484766-9c17-43d3-b439-dc560d55c687" />
