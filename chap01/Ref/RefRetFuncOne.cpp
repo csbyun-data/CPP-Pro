@@ -5,7 +5,7 @@
 
 using namespace std;
 
-int & RefReturnFunctionOne( int &ref) {
+int & RefRetFuncOne( int &ref) {
 	ref++;
 	return ref;
 }
@@ -17,7 +17,7 @@ int main(int argc, char** argv) {
 	// int &num = ref;
 		
 	int num1 = 1;
-	int &num2 = RefReturnFunctionOne(num1);
+	int &num2 = RefRetFuncOne(num1);
 	num1++;
 	num2++;
 	
