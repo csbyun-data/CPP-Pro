@@ -14,7 +14,7 @@ int main(int argc, char** argv) {
 
 	// int num1 = 1;
 	// int &ref = num1;
-	// int &num = ref;
+	// int &num2 = ref;
 		
 	int num1 = 1;
 	int &num2 = RefRetFuncOne(num1);
