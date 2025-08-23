@@ -79,4 +79,14 @@
   }
   ```
   ```
+  int & RefReturnFunctionOne( int &ref) {
+  	ref++;
+  	return ref;
+  }
+  
+  int main(int argc, char** argv) {
+  
+  	int num1 = 1;
+  	int num2 = RefReturnFunctionOne(num1);
+  }  
   ```
