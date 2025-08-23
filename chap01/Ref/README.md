@@ -90,3 +90,21 @@
   	int num2 = RefReturnFunctionOne(num1);
   }  
   ```
+  ```
+  반환형이 참조형 인 경우
+  int num2 = RefRetFuncOne( num1); // O
+  int &num2 = RefReturnOne( num1); // O
+
+  반환형이 값의 형태인 경우
+  int num2 = RefRetFuncOne( num1); // O
+  int &num2 = RefReturnOne( num1); // X
+
+  // 지역변수가 소멸되어 참조대상이 사라짐
+  int & RetRefFunc( int n ) {
+    int num = 20;
+    num += n;
+    return num;
+  }
+
+  int &ref = RetuRefFunc(10); 
+  ```
