@@ -54,19 +54,13 @@
   ```
   <img width="350" height="90" alt="image" src="https://github.com/user-attachments/assets/a5ea6084-47d5-43a8-848d-27fbb5cbf4df" />
 * Reference Argument Function
-  * Call by reference
+  * Call by reference [code](https://github.com/csbyun-data/CPP-Pro/blob/main/chap01/Ref/call_by_ref.cpp)
   ```cpp
-  void swap( int &ref1, int &ref2) {
-    int temp = ref1;
-    ref1 = ref2;
-    ref2 = temp;
-  }
+  void swap( int &ref1, int &ref2) { }
   
   int main(void) {
     int val1 = 10;
     int val2 = 20;
     swap( val1, val2);
-
-    return 0;
   }
   ```
