@@ -11,7 +11,7 @@
     return 0;
   }
   ```
-  <img width="346" height="101" alt="image" src="https://github.com/user-attachments/assets/77c66dd1-3057-4188-b561-3b87055494bf" />
+  <img width="385" height="121" alt="image" src="https://github.com/user-attachments/assets/d8703011-fd8f-4fca-b72c-17e16d7f618c" />
   
   *  declare reference [[code](https://github.com/csbyun-data/CPP-Pro/blob/main/chap01/Ref/ref_arr.cpp)]
   ```cpp
