@@ -7,12 +7,7 @@
     int num1 = 100;
     int &num2 = num1;
     int &num3 = num2;
-  
-    cout << "Value: " << num1 << endl;
-    cout << "Ref  : " << num2 << endl;
-    cout << "Value: " << &num1 << endl;
-    cout << "Ref  : " << &num2 << endl;
-  
+
     return 0;
   }
   ```
