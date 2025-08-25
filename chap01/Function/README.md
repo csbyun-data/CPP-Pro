@@ -36,7 +36,7 @@
   * 1.1 Pass by reference( Call by Reference) [code1](https://github.com/csbyun-data/CPP-Pro/blob/main/chap01/Function/Passing_Array.cpp), [code2](https://github.com/csbyun-data/CPP-Pro/blob/main/chap01/Function/Pass_by_Reference.cpp), [code3](https://github.com/csbyun-data/CPP-Pro/blob/main/chap01/Function/Constant_Variable.cpp), [code4](https://github.com/csbyun-data/CPP-Pro/blob/main/chap01/Function/Pass_by_const_reference.cpp), [code5](https://github.com/csbyun-data/CPP-Pro/blob/main/chap01/Function/References_to_pointers.cpp)
   ```txt
   01) 함수에 배열 전달(Passing arrays to function)
-    배열의 이름은 배열의 address를 가르킨다.
+    배열의 이름은 배열의 address를 가르킨다. 배열의 개수를 반드시 넘겨야 함
     void prt_array(int (&numbers)[5], int size);
     int main() {
        int my_numbers[] = {1, 2, 3, 4, 5};
@@ -44,8 +44,23 @@
     }
   ```
   <img width="645" height="414" alt="image" src="https://github.com/user-attachments/assets/ad484766-9c17-43d3-b439-dc560d55c687" />
-
   ```
+  // 배열을 참조자로 넘길때, 배열릥 개수를 넘기지 않는 방법 -> std::array, std::vector 사용
+  #include <iostream>
+  #include <vector>
+
+  void printVector( const std::vector<int> &arr ) {
+    for( int x:arr ) {
+      std::cout << x << " ";
+    }
+  }
+
+  int main() {
+    std::vector<int> data = { 1, 2, 3, 4};
+    printVector(data);
+  }
+  ```
+  
   02) Pass by reference( Call by reference), 참조자 전달
     void swap(int& a, int& b);
     
