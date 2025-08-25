@@ -61,7 +61,7 @@
     printVector(data);
   }
   ```
-  
+  ```
   02) Pass by reference( Call by reference), 참조자 전달
     void swap(int& a, int& b);
     
