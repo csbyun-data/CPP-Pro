@@ -62,6 +62,25 @@
   }
   ```
   ```
+  #include <iostrem>
+  int main() {
+    int arr[3] = { 1, 2, 3};
+    int (&ref)[3] = arr;
+
+    ref[0] = 2;
+    ref[1] = 3;
+    ref[2] = 1;
+
+    std::out << arr[0] << arr[1] << [arr[2] << std::endl;
+
+    return 0l
+  }
+
+  // 2차원 배열 참조
+  int arr[3][2] = { 1, 2, 3, 4, 5, 6};
+  int (&ref)[3][2] = arr;
+  ```
+  ```
   02) Pass by reference( Call by reference), 참조자 전달
     void swap(int& a, int& b);
     
