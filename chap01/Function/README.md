@@ -44,6 +44,7 @@
     }
   ```
   <img width="645" height="414" alt="image" src="https://github.com/user-attachments/assets/ad484766-9c17-43d3-b439-dc560d55c687" />
+  
   ```
   // 배열을 참조자로 넘길때, 배열릥 개수를 넘기지 않는 방법 -> std::array, std::vector 사용
   #include <iostream>
